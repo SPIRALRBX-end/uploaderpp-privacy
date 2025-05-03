@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Política de Privacidade – Uploader++</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+    .container {
+      background: white;
+      padding: 2rem;
+      margin: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.25rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    p, li {
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+    }
+    ul {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      padding-left: 1.25rem;
+    }
+    .summary {
+      background: #eef9ff;
+      padding: 1rem;
+      border-left: 4px solid #0077cc;
+      margin-top: 2rem;
+      border-radius: 4px;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Política de Privacidade</h1>
-  <p>O Uploader++ não coleta, armazena nem compartilha qualquer dado pessoal dos usuários. Todas as funcionalidades são executadas localmente no navegador, sem envio de informações a servidores externos.</p>
-  <p>Se houver necessidade futura de coleta de dados, esta política será atualizada e notificada aos usuários.</p>
+  <div class="container">
+    <div id="privacy-content"></div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
