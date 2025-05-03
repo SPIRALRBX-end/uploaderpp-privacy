@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
   // Se você deixou o JSON em /public/, use:
-  const jsonPath = 'public/privacy_translations.json';
+  const jsonPath = 'privacy_translations.json';
   // Se estiver na raiz, troque para: const jsonPath = 'privacy_translations.json';
 
   let data;
