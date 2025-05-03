@@ -1,150 +1,1186 @@
 {
-  "pt": {
-    "title": "Política de Privacidade da Extensão Uploader++",
-    "lastUpdated": "Última atualização: 3 de maio de 2025",
-    "sections": [
-      {
-        "heading": "1. Introdução",
-        "content": "Uploader++ facilita o envio de áudios para Roblox diretamente do Chrome. Esta política explica quais dados e permissões a extensão requer, como eles são usados e protegidos."
-      },
-      {
-        "heading": "2. Permissões e Hosts Autorizados",
-        "subsections": [
-          {
-            "subheading": "2.1. Permissões",
-            "items": [
-              "activeTab: injeção de UI apenas em create.roblox.com",
-              "scripting: para inserir botões e listeners",
-              "webNavigation: detecta mudanças em SPAs do Roblox",
-              "storage: armazena preferências localmente"
-            ]
-          },
-          {
-            "subheading": "2.2. Hosts",
-            "items": [
-              "https://*.roblox.com/*: upload de áudios e obtenção de token CSRF",
-              "https://*.rbxcdn.com/*: compatibilidade com recursos estáticos"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "3. Segurança",
-        "items": [
-          "Conexões seguras por HTTPS",
-          "Uso de token CSRF oficial do Roblox",
-          "Código livre de malware"
-        ]
-      },
-      {
-        "heading": "4. Transparência e Uso de Dados",
-        "items": [
-          "Arquivos de áudio selecionados manualmente",
-          "Configurações salvas localmente",
-          "Uploads diretos às APIs do Roblox"
-        ]
-      },
-      {
-        "heading": "5. Compartilhamento de Dados",
-        "content": "Não há compartilhamento com terceiros, exceto com o Roblox para publicar os áudios selecionados."
-      },
-      {
-        "heading": "6. Conteúdo e Afiliados",
-        "items": [
-          "Sem conteúdo questionável (violência, pornografia, discurso de ódio)",
-          "Sem links de afiliados; qualquer futuro será divulgado antes da instalação"
-        ]
-      },
-      {
-        "heading": "7. Revisão e Distribuição",
-        "content": "Cada versão passa pelo processo de revisão da Chrome Web Store. Administradores corporativos podem usar políticas de grupo para permitir ou bloquear a extensão."
-      },
-      {
-        "heading": "8. Bloqueio de URLs",
-        "content": "A extensão não implementa bloqueio de URLs ou filtragem de conteúdo além do escopo de upload de áudio."
-      },
-      {
-        "heading": "9. Alterações nesta Política",
-        "content": "Reservamo-nos o direito de atualizar esta política. Mudanças serão refletidas aqui com data de modificação e no changelog da Web Store."
-      },
-      {
-        "heading": "10. Contato",
-        "content": "Para dúvidas, entre em contato: privacy@uploaderplusplus.example.com"
-      }
-    ]
-  },
-  "en": {
-    "title": "Privacy Policy – Uploader++ Extension",
-    "lastUpdated": "Last updated: May 3, 2025",
-    "sections": [
-      {
-        "heading": "1. Introduction",
-        "content": "Uploader++ helps you upload audio files to Roblox directly from Chrome. This policy explains what data and permissions the extension requires, how they’re used and protected."
-      },
-      {
-        "heading": "2. Permissions and Hosts",
-        "subsections": [
-          {
-            "subheading": "2.1. Permissions",
-            "items": [
-              "activeTab – injects UI only on create.roblox.com",
-              "scripting – inserts buttons and event listeners",
-              "webNavigation – detects SPA navigation changes",
-              "storage – stores preferences locally"
-            ]
-          },
-          {
-            "subheading": "2.2. Hosts",
-            "items": [
-              "https://*.roblox.com/* – audio upload & CSRF token retrieval",
-              "https://*.rbxcdn.com/* – static resource compatibility"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "3. Security",
-        "items": [
-          "HTTPS for all requests",
-          "Official Roblox CSRF token",
-          "Malware‑free code"
-        ]
-      },
-      {
-        "heading": "4. Transparency and Data Use",
-        "items": [
-          "Audio files manually selected by the user",
-          "Settings stored locally",
-          "Direct uploads to Roblox APIs"
-        ]
-      },
-      {
-        "heading": "5. Data Sharing",
-        "content": "No sharing with third parties, except with Roblox to publish the selected audios."
-      },
-      {
-        "heading": "6. Content & Affiliates",
-        "items": [
-          "No objectionable content (violence, pornography, hate speech)",
-          "No affiliate links; if added later, will be disclosed before installation"
-        ]
-      },
-      {
-        "heading": "7. Review & Distribution",
-        "content": "Each version passes Chrome Web Store review. Corporate IT can allow or block via group policies."
-      },
-      {
-        "heading": "8. URL Blocking",
-        "content": "The extension does not block URLs or filter content beyond audio upload scope."
-      },
-      {
-        "heading": "9. Policy Changes",
-        "content": "We reserve the right to update this policy. Changes will be reflected here with dates and in changelog."
-      },
-      {
-        "heading": "10. Contact",
-        "content": "For inquiries, contact: privacy@uploaderplusplus.example.com"
-      }
-    ]
+    "en": {
+      "title": "Privacy Policy – Uploader++ Extension",
+      "lastUpdated": "Last updated: May 3, 2025",
+      "sections": [
+        {
+          "heading": "1. Introduction",
+          "content": "Uploader++ helps you upload audio files to Roblox directly from Chrome. This policy explains what data and permissions the extension requires, how they’re used and protected."
+        },
+        {
+          "heading": "2. Permissions and Hosts",
+          "subsections": [
+            {
+              "subheading": "2.1. Permissions",
+              "items": [
+                "activeTab – injects UI only on create.roblox.com",
+                "scripting – inserts buttons and event listeners",
+                "webNavigation – detects SPA navigation changes",
+                "storage – stores preferences locally"
+              ]
+            },
+            {
+              "subheading": "2.2. Hosts",
+              "items": [
+                "https://*.roblox.com/* – audio upload & CSRF token retrieval",
+                "https://*.rbxcdn.com/* – static resource compatibility"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. Security",
+          "items": [
+            "HTTPS for all requests",
+            "Official Roblox CSRF token",
+            "Malware‑free code"
+          ]
+        },
+        {
+          "heading": "4. Transparency and Data Use",
+          "items": [
+            "Audio files manually selected by the user",
+            "Settings stored locally",
+            "Direct uploads to Roblox APIs"
+          ]
+        },
+        {
+          "heading": "5. Data Sharing",
+          "content": "No sharing with third parties, except with Roblox to publish the selected audios."
+        },
+        {
+          "heading": "6. Content & Affiliates",
+          "items": [
+            "No objectionable content (violence, pornography, hate speech)",
+            "No affiliate links; if added later, will be disclosed before installation"
+          ]
+        },
+        {
+          "heading": "7. Review & Distribution",
+          "content": "Each version passes Chrome Web Store review. Corporate IT can allow or block via group policies."
+        },
+        {
+          "heading": "8. URL Blocking",
+          "content": "The extension does not block URLs or filter content beyond audio upload scope."
+        },
+        {
+          "heading": "9. Policy Changes",
+          "content": "We reserve the right to update this policy. Changes will be reflected here with dates and in changelog."
+        },
+        {
+          "heading": "10. Contact",
+          "content": "For inquiries, contact: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "pt": {
+      "title": "Política de Privacidade da Extensão Uploader++",
+      "lastUpdated": "Última atualização: 3 de maio de 2025",
+      "sections": [
+        {
+          "heading": "1. Introdução",
+          "content": "Uploader++ facilita o envio de áudios para Roblox diretamente do Chrome. Esta política explica quais dados e permissões a extensão requer, como eles são usados e protegidos."
+        },
+        {
+          "heading": "2. Permissões e Hosts Autorizados",
+          "subsections": [
+            {
+              "subheading": "2.1. Permissões",
+              "items": [
+                "activeTab: injeção de UI apenas em create.roblox.com",
+                "scripting: para inserir botões e listeners",
+                "webNavigation: detecta mudanças em SPAs do Roblox",
+                "storage: armazena preferências localmente"
+              ]
+            },
+            {
+              "subheading": "2.2. Hosts",
+              "items": [
+                "https://*.roblox.com/*: upload de áudios e obtenção de token CSRF",
+                "https://*.rbxcdn.com/*: compatibilidade com recursos estáticos"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. Segurança",
+          "items": [
+            "Conexões seguras por HTTPS",
+            "Uso de token CSRF oficial do Roblox",
+            "Código livre de malware"
+          ]
+        },
+        {
+          "heading": "4. Transparência e Uso de Dados",
+          "items": [
+            "Arquivos de áudio selecionados manualmente",
+            "Configurações salvas localmente",
+            "Uploads diretos às APIs do Roblox"
+          ]
+        },
+        {
+          "heading": "5. Compartilhamento de Dados",
+          "content": "Não há compartilhamento com terceiros, exceto com o Roblox para publicar os áudios selecionados."
+        },
+        {
+          "heading": "6. Conteúdo e Afiliados",
+          "items": [
+            "Sem conteúdo questionável (violência, pornografia, discurso de ódio)",
+            "Sem links de afiliados; qualquer futuro será divulgado antes da instalação"
+          ]
+        },
+        {
+          "heading": "7. Revisão e Distribuição",
+          "content": "Cada versão passa pelo processo de revisão da Chrome Web Store. Administradores corporativos podem usar políticas de grupo para permitir ou bloquear a extensão."
+        },
+        {
+          "heading": "8. Bloqueio de URLs",
+          "content": "A extensão não implementa bloqueio de URLs ou filtragem de conteúdo além do escopo de upload de áudio."
+        },
+        {
+          "heading": "9. Alterações nesta Política",
+          "content": "Reservamo-nos o direito de atualizar esta política. Mudanças serão refletidas aqui com data de modificação e no changelog da Web Store."
+        },
+        {
+          "heading": "10. Contato",
+          "content": "Para dúvidas, entre em contato: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "es": {
+      "title": "Política de Privacidad de la Extensión Uploader++",
+      "lastUpdated": "Última actualización: 3 de mayo de 2025",
+      "sections": [
+        {
+          "heading": "1. Introducción",
+          "content": "Uploader++ te ayuda a subir archivos de audio a Roblox directamente desde Chrome. Esta política explica qué datos y permisos requiere la extensión, cómo se usan y protegen."
+        },
+        {
+          "heading": "2. Permisos y Hosts",
+          "subsections": [
+            {
+              "subheading": "2.1. Permisos",
+              "items": [
+                "activeTab: inyección de UI solo en create.roblox.com",
+                "scripting: para insertar botones y listeners de eventos",
+                "webNavigation: detecta cambios de navegación en SPA",
+                "storage: almacena preferencias localmente"
+              ]
+            },
+            {
+              "subheading": "2.2. Hosts autorizados",
+              "items": [
+                "https://*.roblox.com/*: subida de audio y obtención de token CSRF",
+                "https://*.rbxcdn.com/*: compatibilidad con recursos estáticos"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. Seguridad",
+          "items": [
+            "Conexiones HTTPS para todas las solicitudes",
+            "Uso del token CSRF oficial de Roblox",
+            "Código libre de malware"
+          ]
+        },
+        {
+          "heading": "4. Transparencia y Uso de Datos",
+          "items": [
+            "Archivos de audio seleccionados manualmente por el usuario",
+            "Configuraciones almacenadas localmente",
+            "Subidas directas a las API de Roblox"
+          ]
+        },
+        {
+          "heading": "5. Compartición de Datos",
+          "content": "No se comparte con terceros, excepto con Roblox para publicar los audios seleccionados."
+        },
+        {
+          "heading": "6. Contenido y Afiliados",
+          "items": [
+            "Sin contenido objetable (violencia, pornografía, discurso de odio)",
+            "Sin enlaces de afiliados; si se agregan en el futuro, se informará antes de la instalación"
+          ]
+        },
+        {
+          "heading": "7. Revisión y Distribución",
+          "content": "Cada versión pasa por el proceso de revisión de la Chrome Web Store. El departamento de TI corporativo puede permitir o bloquear mediante políticas de grupo."
+        },
+        {
+          "heading": "8. Bloqueo de URL",
+          "content": "La extensión no bloquea URLs ni filtra contenido más allá del alcance de la carga de audio."
+        },
+        {
+          "heading": "9. Cambios en esta Política",
+          "content": "Nos reservamos el derecho de actualizar esta política. Los cambios se reflejarán aquí con la fecha de modificación y en el changelog de la Web Store."
+        },
+        {
+          "heading": "10. Contacto",
+          "content": "Para consultas, contacta a: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Politique de Confidentialité de l’Extension Uploader++",
+      "lastUpdated": "Dernière mise à jour : 3 mai 2025",
+      "sections": [
+        {
+          "heading": "1. Introduction",
+          "content": "Uploader++ vous aide à télécharger des fichiers audio vers Roblox directement depuis Chrome. Cette politique explique quelles données et autorisations l’extension requiert, comment elles sont utilisées et protégées."
+        },
+        {
+          "heading": "2. Autorisations et Hôtes",
+          "subsections": [
+            {
+              "subheading": "2.1. Autorisations",
+              "items": [
+                "activeTab : injection de l’UI uniquement sur create.roblox.com",
+                "scripting : insertion de boutons et d’écouteurs d’événements",
+                "webNavigation : détection des changements de navigation de SPA",
+                "storage : enregistre les préférences localement"
+              ]
+            },
+            {
+              "subheading": "2.2. Hôtes autorisés",
+              "items": [
+                "https://*.roblox.com/* : téléchargement audio et récupération du token CSRF",
+                "https://*.rbxcdn.com/* : compatibilité avec les ressources statiques"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. Sécurité",
+          "items": [
+            "HTTPS pour toutes les requêtes",
+            "Token CSRF officiel de Roblox",
+            "Code sans malware"
+          ]
+        },
+        {
+          "heading": "4. Transparence et Utilisation des Données",
+          "items": [
+            "Fichiers audio sélectionnés manuellement par l’utilisateur",
+            "Paramètres stockés localement",
+            "Téléchargements directs vers les API de Roblox"
+          ]
+        },
+        {
+          "heading": "5. Partage des Données",
+          "content": "Pas de partage avec des tiers, sauf avec Roblox pour publier les audios sélectionnés."
+        },
+        {
+          "heading": "6. Contenu et Affiliés",
+          "items": [
+            "Pas de contenu inapproprié (violence, pornographie, discours haineux)",
+            "Pas de liens d’affiliation ; s’ils sont ajoutés, ils seront divulgués avant l’installation"
+          ]
+        },
+        {
+          "heading": "7. Révision et Distribution",
+          "content": "Chaque version passe par la revue de la Chrome Web Store. Le département informatique peut autoriser ou bloquer via les politiques de groupe."
+        },
+        {
+          "heading": "8. Blocage d’URL",
+          "content": "L’extension ne bloque pas les URL ni ne filtre le contenu au-delà du champ de téléchargement audio."
+        },
+        {
+          "heading": "9. Changements de cette Politique",
+          "content": "Nous nous réservons le droit de mettre à jour cette politique. Les changements seront reflétés ici avec la date et dans le changelog de la Web Store."
+        },
+        {
+          "heading": "10. Contact",
+          "content": "Pour toute question, contactez : privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "de": {
+      "title": "Datenschutzrichtlinie für die Uploader++ Erweiterung",
+      "lastUpdated": "Zuletzt aktualisiert: 3. Mai 2025",
+      "sections": [
+        {
+          "heading": "1. Einführung",
+          "content": "Uploader++ hilft Ihnen, Audiodateien direkt aus Chrome auf Roblox hochzuladen. Diese Richtlinie erklärt, welche Daten und Berechtigungen die Erweiterung benötigt und wie sie verwendet und geschützt werden."
+        },
+        {
+          "heading": "2. Berechtigungen und Hosts",
+          "subsections": [
+            {
+              "subheading": "2.1. Berechtigungen",
+              "items": [
+                "activeTab: UI-Injektion nur auf create.roblox.com",
+                "scripting: Einfügen von Schaltflächen und Ereignis-Listenern",
+                "webNavigation: Erkennung von SPA-Navigationsänderungen",
+                "storage: Speichern von Einstellungen lokal"
+              ]
+            },
+            {
+              "subheading": "2.2. Hosts",
+              "items": [
+                "https://*.roblox.com/*: Audio-Upload & CSRF-Token-Abruf",
+                "https://*.rbxcdn.com/*: Kompatibilität mit statischen Ressourcen"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. Sicherheit",
+          "items": [
+            "HTTPS für alle Anfragen",
+            "Offizieller Roblox CSRF-Token",
+            "Malware-freier Code"
+          ]
+        },
+        {
+          "heading": "4. Transparenz und Datennutzung",
+          "items": [
+            "Vom Benutzer manuell ausgewählte Audiodateien",
+            "Einstellungen werden lokal gespeichert",
+            "Direktes Hochladen zu den Roblox-APIs"
+          ]
+        },
+        {
+          "heading": "5. Datenaustausch",
+          "content": "Keine Weitergabe an Dritte, außer an Roblox, um die ausgewählten Audios zu veröffentlichen."
+        },
+        {
+          "heading": "6. Inhalt & Affiliate-Links",
+          "items": [
+            "Kein anstößiger Inhalt (Gewalt, Pornografie, Hassrede)",
+            "Keine Affiliate-Links; falls hinzugefügt, werden sie vor der Installation offengelegt"
+          ]
+        },
+        {
+          "heading": "7. Überprüfung & Verteilung",
+          "content": "Jede Version durchläuft die Überprüfung im Chrome Web Store. IT-Abteilungen können per Gruppenrichtlinien erlauben oder blockieren."
+        },
+        {
+          "heading": "8. URL-Blockierung",
+          "content": "Die Erweiterung blockiert keine URLs und filtert keinen Inhalt über den Audioupload hinaus."
+        },
+        {
+          "heading": "9. Richtlinienänderungen",
+          "content": "Wir behalten uns das Recht vor, diese Richtlinie zu aktualisieren. Änderungen werden hier mit Datum und im Changelog des Web Store reflektiert."
+        },
+        {
+          "heading": "10. Kontakt",
+          "content": "Bei Fragen kontaktieren Sie: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "it": {
+      "title": "Politica sulla Privacy dell’Estensione Uploader++",
+      "lastUpdated": "Ultimo aggiornamento: 3 maggio 2025",
+      "sections": [
+        {
+          "heading": "1. Introduzione",
+          "content": "Uploader++ ti aiuta a caricare file audio su Roblox direttamente da Chrome. Questa politica spiega quali dati e permessi richiede l’estensione, come vengono utilizzati e protetti."
+        },
+        {
+          "heading": "2. Permessi e Host",
+          "subsections": [
+            {
+              "subheading": "2.1. Permessi",
+              "items": [
+                "activeTab: inietta UI solo su create.roblox.com",
+                "scripting: inserimento di pulsanti e listener di eventi",
+                "webNavigation: rileva cambi di navigazione in SPA",
+                "storage: salva le preferenze in locale"
+              ]
+            },
+            {
+              "subheading": "2.2. Host autorizzati",
+              "items": [
+                "https://*.roblox.com/*: caricamento audio e recupero token CSRF",
+                "https://*.rbxcdn.com/*: compatibilità con risorse statiche"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. Sicurezza",
+          "items": [
+            "HTTPS per tutte le richieste",
+            "Token CSRF ufficiale di Roblox",
+            "Codice privo di malware"
+          ]
+        },
+        {
+          "heading": "4. Trasparenza e Uso dei Dati",
+          "items": [
+            "File audio selezionati manualmente dall’utente",
+            "Impostazioni salvate in locale",
+            "Caricamenti diretti alle API di Roblox"
+          ]
+        },
+        {
+          "heading": "5. Condivisione dei Dati",
+          "content": "Nessuna condivisione con terze parti, tranne con Roblox per pubblicare gli audio selezionati."
+        },
+        {
+          "heading": "6. Contenuti e Affiliati",
+          "items": [
+            "Nessun contenuto discutibile (violenza, pornografia, discorso d’odio)",
+            "Nessun link di affiliazione; se aggiunti in futuro, saranno comunicati prima dell’installazione"
+          ]
+        },
+        {
+          "heading": "7. Revisione e Distribuzione",
+          "content": "Ogni versione passa la revisione del Chrome Web Store. IT aziendali possono consentire o bloccare tramite criteri di gruppo."
+        },
+        {
+          "heading": "8. Blocca URL",
+          "content": "L’estensione non blocca URL né filtra contenuti al di fuori dello scopo di caricamento audio."
+        },
+        {
+          "heading": "9. Modifiche a Questa Politica",
+          "content": "Ci riserviamo il diritto di aggiornare questa politica. Le modifiche saranno riflesse qui con la data e nel changelog del Web Store."
+        },
+        {
+          "heading": "10. Contatto",
+          "content": "Per domande, contatta: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "zh": {
+      "title": "Uploader++ 扩展的隐私政策",
+      "lastUpdated": "最后更新：2025年5月3日",
+      "sections": [
+        {
+          "heading": "1. 简介",
+          "content": "Uploader++ 帮助您通过 Chrome 直接将音频文件上传到 Roblox。本政策解释了扩展所需的数据和权限，以及它们如何被使用和保护。"
+        },
+        {
+          "heading": "2. 权限和主机",
+          "subsections": [
+            {
+              "subheading": "2.1. 权限",
+              "items": [
+                "activeTab：仅在 create.roblox.com 注入 UI",
+                "scripting：插入按钮和事件监听器",
+                "webNavigation：检测单页应用的导航变化",
+                "storage：本地存储首选项"
+              ]
+            },
+            {
+              "subheading": "2.2. 授权主机",
+              "items": [
+                "https://*.roblox.com/*：音频上传及 CSRF 令牌获取",
+                "https://*.rbxcdn.com/*：兼容静态资源"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. 安全性",
+          "items": [
+            "所有请求使用 HTTPS",
+            "使用 Roblox 官方 CSRF 令牌",
+            "无恶意软件代码"
+          ]
+        },
+        {
+          "heading": "4. 透明度与数据使用",
+          "items": [
+            "音频文件由用户手动选择",
+            "设置本地保存",
+            "直接上传至 Roblox API"
+          ]
+        },
+        {
+          "heading": "5. 数据共享",
+          "content": "不与第三方共享，除非与 Roblox 共享以发布所选音频。"
+        },
+        {
+          "heading": "6. 内容及关联链接",
+          "items": [
+            "无不当内容（暴力、色情、仇恨言论）",
+            "无关联链接；如将来添加，会在安装前披露"
+          ]
+        },
+        {
+          "heading": "7. 审核与分发",
+          "content": "每个版本都通过 Chrome 网上应用店审核。企业 IT 可通过组策略允许或阻止扩展。"
+        },
+        {
+          "heading": "8. URL 阻止",
+          "content": "扩展不会阻止 URL，也不会在音频上传范围之外过滤内容。"
+        },
+        {
+          "heading": "9. 政策变更",
+          "content": "我们保留更新本政策的权利。更改将反映在此处并在网上应用店更新日志中。"
+        },
+        {
+          "heading": "10. 联系方式",
+          "content": "如有疑问，请联系：privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Uploader++ 拡張機能のプライバシーポリシー",
+      "lastUpdated": "最終更新日：2025年5月3日",
+      "sections": [
+        {
+          "heading": "1. はじめに",
+          "content": "Uploader++ は Chrome から直接 Roblox にオーディオファイルをアップロードするのを支援します。本ポリシーでは、拡張機能が要求するデータと権限、それらの利用方法と保護方法について説明します。"
+        },
+        {
+          "heading": "2. 権限とホスト",
+          "subsections": [
+            {
+              "subheading": "2.1. 権限",
+              "items": [
+                "activeTab：create.roblox.com のみで UI を注入",
+                "scripting：ボタンとイベントリスナーを挿入",
+                "webNavigation：SPA のナビゲーション変更を検出",
+                "storage：設定をローカルに保存"
+              ]
+            },
+            {
+              "subheading": "2.2. 許可されたホスト",
+              "items": [
+                "https://*.roblox.com/*：オーディオアップロードと CSRF トークン取得",
+                "https://*.rbxcdn.com/*：静的リソースの互換性"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. セキュリティ",
+          "items": [
+            "すべてのリクエストに HTTPS を使用",
+            "公式 Roblox CSRF トークンの使用",
+            "マルウェアフリーのコード"
+          ]
+        },
+        {
+          "heading": "4. 透明性とデータ使用",
+          "items": [
+            "ユーザーが手動で選択したオーディオファイル",
+            "設定はローカルに保存",
+            "Roblox API への直接アップロード"
+          ]
+        },
+        {
+          "heading": "5. データ共有",
+          "content": "選択されたオーディオを公開するために Roblox と共有する場合を除き、第三者と共有しません。"
+        },
+        {
+          "heading": "6. コンテンツとアフィリエイト",
+          "items": [
+            "不適切なコンテンツなし（暴力、ポルノ、ヘイトスピーチ）",
+            "アフィリエイトリンクなし；追加する場合はインストール前に通知"
+          ]
+        },
+        {
+          "heading": "7. レビューと配布",
+          "content": "各バージョンは Chrome Web ストアのレビューを通過します。企業の IT 部門はグループポリシーで許可またはブロックできます。"
+        },
+        {
+          "heading": "8. URL ブロック",
+          "content": "拡張機能は URL のブロックやオーディオアップロード範囲外のコンテンツフィルタリングを行いません。"
+        },
+        {
+          "heading": "9. ポリシーの変更",
+          "content": "本ポリシーを更新する権利を留保します。変更はここに日付付きで反映され、ストアの更新ログにも記載されます。"
+        },
+        {
+          "heading": "10. お問い合わせ",
+          "content": "お問い合わせは：privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "ru": {
+      "title": "Политика конфиденциальности расширения Uploader++",
+      "lastUpdated": "Последнее обновление: 3 мая 2025 г.",
+      "sections": [
+        {
+          "heading": "1. Введение",
+          "content": "Uploader++ помогает загружать аудиофайлы в Roblox напрямую из Chrome. В этой политике объясняется, какие данные и разрешения требуются расширению, как они используются и защищаются."
+        },
+        {
+          "heading": "2. Разрешения и хосты",
+          "subsections": [
+            {
+              "subheading": "2.1. Разрешения",
+              "items": [
+                "activeTab: внедрение интерфейса только на create.roblox.com",
+                "scripting: вставка кнопок и обработчиков событий",
+                "webNavigation: обнаружение изменений навигации SPA",
+                "storage: локальное хранение настроек"
+              ]
+            },
+            {
+              "subheading": "2.2. Разрешённые хосты",
+              "items": [
+                "https://*.roblox.com/*: загрузка аудио и получение CSRF-токена",
+                "https://*.rbxcdn.com/*: совместимость со статическими ресурсами"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. Безопасность",
+          "items": [
+            "HTTPS для всех запросов",
+            "Официальный CSRF-токен Roblox",
+            "Код без вредоносных программ"
+          ]
+        },
+        {
+          "heading": "4. Прозрачность и использование данных",
+          "items": [
+            "Аудиофайлы выбираются пользователем вручную",
+            "Настройки хранятся локально",
+            "Прямые загрузки в API Roblox"
+          ]
+        },
+        {
+          "heading": "5. Распространение данных",
+          "content": "Никакое распространение третьим лицам, кроме Roblox для публикации выбранных аудио."
+        },
+        {
+          "heading": "6. Контент и партнерские ссылки",
+          "items": [
+            "Без сомнительного контента (насилие, порнография, разжигание ненависти)",
+            "Без партнерских ссылок; при добавлении заранее будет указано"
+          ]
+        },
+        {
+          "heading": "7. Проверка и распространение",
+          "content": "Каждая версия проходит проверку в Chrome Web Store. Корпоративные администраторы могут разрешать или блокировать через групповые политики."
+        },
+        {
+          "heading": "8. Блокировка URL",
+          "content": "Расширение не блокирует URL и не фильтрует контент за пределами загрузки аудио."
+        },
+        {
+          "heading": "9. Изменения в политике",
+          "content": "Мы оставляем за собой право обновлять эту политику. Изменения будут отражены здесь с датой и в журнале изменений Web Store."
+        },
+        {
+          "heading": "10. Контакты",
+          "content": "По вопросам пишите на: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "ar": {
+      "title": "سياسة الخصوصية لإضافة Uploader++",
+      "lastUpdated": "آخر تحديث: 3 مايو 2025",
+      "sections": [
+        {
+          "heading": "1. المقدمة",
+          "content": "تساعدك إضافة Uploader++ على رفع ملفات الصوت إلى Roblox مباشرةً من متصفح Chrome. توضح هذه السياسة البيانات والأذونات المطلوبة وكيفية استخدامها وحمايتها."
+        },
+        {
+          "heading": "2. الأذونات والمضيفون",
+          "subsections": [
+            {
+              "subheading": "2.1. الأذونات",
+              "items": [
+                "activeTab: حقن الواجهة فقط على create.roblox.com",
+                "scripting: إدراج الأزرار ومستمعي الأحداث",
+                "webNavigation: اكتشاف تغييرات التنقل في تطبيقات الصفحة الواحدة",
+                "storage: تخزين التفضيلات محلياً"
+              ]
+            },
+            {
+              "subheading": "2.2. المضيفون المصرح لهم",
+              "items": [
+                "https://*.roblox.com/*: رفع الصوت والحصول على رمز CSRF",
+                "https://*.rbxcdn.com/*: توافق مع الموارد الثابتة"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. الأمان",
+          "items": [
+            "استخدام HTTPS لجميع الطلبات",
+            "رمز CSRF الرسمي من Roblox",
+            "كود خالٍ من البرامج الضارة"
+          ]
+        },
+        {
+          "heading": "4. الشفافية واستخدام البيانات",
+          "items": [
+            "ملفات الصوت يختارها المستخدم يدوياً",
+            "التفضيلات مخزنة محلياً",
+            "رفع مباشر إلى واجهات برمجة تطبيقات Roblox"
+          ]
+        },
+        {
+          "heading": "5. مشاركة البيانات",
+          "content": "لا تتم مشاركة البيانات مع أطراف ثالثة، باستثناء Roblox لنشر الملفات الصوتية المحددة."
+        },
+        {
+          "heading": "6. المحتوى وروابط الأفلييت",
+          "items": [
+            "لا محتوى مرفوض (عنف، مواد إباحية، خطاب كراهية)",
+            "لا روابط أفلييت؛ في حال الإضافة سيتم الإفصاح عنها قبل التثبيت"
+          ]
+        },
+        {
+          "heading": "7. المراجعة والتوزيع",
+          "content": "كل إصدار يمر بمراجعة متجر Chrome الإلكتروني. يمكن لقسم تقنية المعلومات بالشركات السماح أو المنع عبر سياسات المجموعة."
+        },
+        {
+          "heading": "8. حظر الروابط",
+          "content": "الإضافة لا تحظر روابط URL ولا تصفي المحتوى خارج نطاق رفع الصوت."
+        },
+        {
+          "heading": "9. تغييرات هذه السياسة",
+          "content": "نحتفظ بالحق في تحديث هذه السياسة. سيتم عكس التغييرات هنا مع التاريخ وفي سجل التغييرات بالمتجر."
+        },
+        {
+          "heading": "10. الاتصال",
+          "content": "للاستفسارات، راسل: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "hi": {
+      "title": "Uploader++ एक्सटेंशन की गोपनीयता नीति",
+      "lastUpdated": "अंतिम अपडेट: 3 मई 2025",
+      "sections": [
+        {
+          "heading": "1. परिचय",
+          "content": "Uploader++ आपको Chrome से सीधे Roblox पर ऑडियो फ़ाइलें अपलोड करने में मदद करता है। यह नीति बताती है कि एक्सटेंशन को कौन से डेटा और अनुमतियाँ चाहिए, उन्हें कैसे उपयोग किया जाता है और सुरक्षित किया जाता है।"
+        },
+        {
+          "heading": "2. अनुमतियाँ और होस्ट",
+          "subsections": [
+            {
+              "subheading": "2.1. अनुमतियाँ",
+              "items": [
+                "activeTab: केवल create.roblox.com पर UI इंजेक्ट करता है",
+                "scripting: बटन और इवेंट लिसनर्स जोड़ता है",
+                "webNavigation: SPA नेविगेशन परिवर्तनों का पता लगाता है",
+                "storage: स्थानीय रूप से प्राथमिकताएँ सहेजता है"
+              ]
+            },
+            {
+              "subheading": "2.2. अधिकृत होस्ट",
+              "items": [
+                "https://*.roblox.com/*: ऑडियो अपलोड और CSRF टोकन प्राप्ति",
+                "https://*.rbxcdn.com/*: स्थैतिक संसाधनों अनुकूलता"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. सुरक्षा",
+          "items": [
+            "सभी अनुरोधों के लिए HTTPS",
+            "औपचारिक Roblox CSRF टोकन",
+            "मैलवेयर-रहित कोड"
+          ]
+        },
+        {
+          "heading": "4. पारदर्शिता और डेटा उपयोग",
+          "items": [
+            "यूजर द्वारा मैन्युअली चयनित ऑडियो फ़ाइलें",
+            "स्थानीय रूप से सहेजे गए सेटिंग्स",
+            "Roblox APIs में सीधे अपलोड"
+          ]
+        },
+        {
+          "heading": "5. डेटा साझाकरण",
+          "content": "चयनित ऑडियो को प्रकाशित करने के लिए Roblox को छोड़कर किसी तीसरे पक्ष के साथ साझाकरण नहीं।"
+        },
+        {
+          "heading": "6. सामग्री और एफिलिएट लिंक",
+          "items": [
+            "कोई अनुचित सामग्री नहीं (हिंसा, अश्लीलता, घृणा भाषण)",
+            "कोई एफिलिएट लिंक नहीं; भविष्य में जोड़े जाने पर इंस्टॉल से पहले सूचित किया जाएगा"
+          ]
+        },
+        {
+          "heading": "7. समीक्षा और वितरण",
+          "content": "हर संस्करण Chrome Web Store समीक्षा प्रक्रिया से गुजरता है। कॉर्पोरेट IT समूह नीतियों के माध्यम से अनुमति या अवरोधित कर सकते हैं।"
+        },
+        {
+          "heading": "8. URL ब्लॉकिंग",
+          "content": "एक्सटेंशन URLs को ब्लॉक नहीं करता और ऑडियो अपलोड क्षेत्र से परे सामग्री फ़िल्टर नहीं करता।"
+        },
+        {
+          "heading": "9. नीतिगत परिवर्तन",
+          "content": "हम इस नीति को अपडेट करने का अधिकार सुरक्षित रखते हैं। परिवर्तन यहाँ तिथि के साथ और Web Store के चेंजलॉग में दर्शाए जाएंगे।"
+        },
+        {
+          "heading": "10. संपर्क",
+          "content": "प्रश्नों के लिए संपर्क करें: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "nl": {
+      "title": "Privacybeleid – Uploader++-extensie",
+      "lastUpdated": "Laatst bijgewerkt: 3 mei 2025",
+      "sections": [
+        {
+          "heading": "1. Inleiding",
+          "content": "Uploader++ helpt je audiobestanden rechtstreeks vanuit Chrome naar Roblox te uploaden. Dit beleid legt uit welke gegevens en machtigingen de extensie nodig heeft, hoe ze worden gebruikt en beschermd."
+        },
+        {
+          "heading": "2. Machtigingen en Hosts",
+          "subsections": [
+            {
+              "subheading": "2.1. Machtigingen",
+              "items": [
+                "activeTab: UI injectie alleen op create.roblox.com",
+                "scripting: voegt knoppen en event listeners toe",
+                "webNavigation: detecteert SPA-navigatiewijzigingen",
+                "storage: slaat voorkeuren lokaal op"
+              ]
+            },
+            {
+              "subheading": "2.2. Hosts",
+              "items": [
+                "https://*.roblox.com/*: audio-upload & CSRF-token ophalen",
+                "https://*.rbxcdn.com/*: compatibiliteit met statische bronnen"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. Beveiliging",
+          "items": [
+            "HTTPS voor alle verzoeken",
+            "Officieel Roblox CSRF-token",
+            "Malwarevrije code"
+          ]
+        },
+        {
+          "heading": "4. Transparantie en Gegevensgebruik",
+          "items": [
+            "Audiobestanden handmatig geselecteerd door de gebruiker",
+            "Instellingen lokaal opgeslagen",
+            "Directe uploads naar de Roblox API's"
+          ]
+        },
+        {
+          "heading": "5. Gegevensdeling",
+          "content": "Geen deling met derden, behalve met Roblox om de geselecteerde audiobestanden te publiceren."
+        },
+        {
+          "heading": "6. Inhoud & Affiliates",
+          "items": [
+            "Geen aanstootgevende inhoud (geweld, pornografie, haatspraak)",
+            "Geen affiliate links; als deze later worden toegevoegd, worden ze voor installatie bekendgemaakt"
+          ]
+        },
+        {
+          "heading": "7. Beoordeling & Distributie",
+          "content": "Elke versie wordt beoordeeld door de Chrome Web Store. Bedrijfs-IT kan via groepsbeleid toestaan of blokkeren."
+        },
+        {
+          "heading": "8. URL-blokkering",
+          "content": "De extensie blokkeert geen URL's en filtert inhoud buiten de reikwijdte van audio-upload niet."
+        },
+        {
+          "heading": "9. Beleidwijzigingen",
+          "content": "We behouden ons het recht voor dit beleid bij te werken. Wijzigingen worden hier met datum en in de changelog van de Web Store weergegeven."
+        },
+        {
+          "heading": "10. Contact",
+          "content": "Bij vragen, neem contact op: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "sv": {
+      "title": "Integritetspolicy för Uploader++-tillägget",
+      "lastUpdated": "Senast uppdaterad: 3 maj 2025",
+      "sections": [
+        {
+          "heading": "1. Introduktion",
+          "content": "Uploader++ hjälper dig att ladda upp ljudfiler till Roblox direkt från Chrome. Denna policy förklarar vilka uppgifter och behörigheter tillägget behöver, hur de används och skyddas."
+        },
+        {
+          "heading": "2. Behörigheter och Hosts",
+          "subsections": [
+            {
+              "subheading": "2.1. Behörigheter",
+              "items": [
+                "activeTab: injicerar UI endast på create.roblox.com",
+                "scripting: infogar knappar och event-lyssnare",
+                "webNavigation: upptäcker SPA-navigeringsändringar",
+                "storage: sparar inställningar lokalt"
+              ]
+            },
+            {
+              "subheading": "2.2. Hosts",
+              "items": [
+                "https://*.roblox.com/*: ljuduppladdning & CSRF-tokenhämtning",
+                "https://*.rbxcdn.com/*: kompatibilitet med statiska resurser"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. Säkerhet",
+          "items": [
+            "HTTPS för alla förfrågningar",
+            "Officiell CSRF-token från Roblox",
+            "Malware-fri kod"
+          ]
+        },
+        {
+          "heading": "4. Transparens och Databruk",
+          "items": [
+            "Ljudfiler manuellt valda av användaren",
+            "Inställningar sparade lokalt",
+            "Direktuppladdningar till Roblox API:er"
+          ]
+        },
+        {
+          "heading": "5. Datadelning",
+          "content": "Ingen delning med tredje part, förutom med Roblox för att publicera de valda ljudfilerna."
+        },
+        {
+          "heading": "6. Innehåll & Affiliates",
+          "items": [
+            "Inget stötande innehåll (våld, pornografi, hatpropaganda)",
+            "Inga affiliate-länkar; om de läggs till kommer det att meddelas före installation"
+          ]
+        },
+        {
+          "heading": "7. Granskning & Distribution",
+          "content": "Varje version granskas av Chrome Web Store. Företags-IT kan tillåta eller blockera via grupprinciper."
+        },
+        {
+          "heading": "8. URL-blockering",
+          "content": "Tillägget blockerar inte URL:er och filtrerar inte innehåll utanför ljuduppladdningsområdet."
+        },
+        {
+          "heading": "9. Policändringar",
+          "content": "Vi förbehåller oss rätten att uppdatera denna policy. Ändringar kommer att återspeglas här med datum och i changeloggen för Web Store."
+        },
+        {
+          "heading": "10. Kontakt",
+          "content": "För frågor, kontakta: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "no": {
+      "title": "Personvernregler for Uploader++-utvidelsen",
+      "lastUpdated": "Sist oppdatert: 3. mai 2025",
+      "sections": [
+        {
+          "heading": "1. Introduksjon",
+          "content": "Uploader++ hjelper deg med å laste opp lydfiler til Roblox direkte fra Chrome. Denne policyen forklarer hvilke data og tillatelser utvidelsen krever, hvordan de brukes og beskyttes."
+        },
+        {
+          "heading": "2. Tillatelser og verter",
+          "subsections": [
+            {
+              "subheading": "2.1. Tillatelser",
+              "items": [
+                "activeTab: injiserer UI kun på create.roblox.com",
+                "scripting: setter inn knapper og hendelseslyttere",
+                "webNavigation: oppdager SPA-navigasjonsendringer",
+                "storage: lagrer preferanser lokalt"
+              ]
+            },
+            {
+              "subheading": "2.2. Autoriserte verter",
+              "items": [
+                "https://*.roblox.com/*: lydopplasting og innhenting av CSRF-token",
+                "https://*.rbxcdn.com/*: kompatibilitet med statiske ressurser"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. Sikkerhet",
+          "items": [
+            "HTTPS for alle forespørsler",
+            "Offisiell Roblox CSRF-token",
+            "Skadelig programvare-fri kode"
+          ]
+        },
+        {
+          "heading": "4. Åpenhet og databruk",
+          "items": [
+            "Lydfiler manuelt valgt av brukeren",
+            "Innstillinger lagres lokalt",
+            "Direkte opplastinger til Roblox API-er"
+          ]
+        },
+        {
+          "heading": "5. Datadeling",
+          "content": "Ingen deling med tredjepart, bortsett fra med Roblox for å publisere de valgte lydfilene."
+        },
+        {
+          "heading": "6. Innhold og tilknyttede lenker",
+          "items": [
+            "Ingen støtende innhold (vold, pornografi, hatytringer)",
+            "Ingen tilknyttede lenker; blir avslørt før installasjon om lagt til"
+          ]
+        },
+        {
+          "heading": "7. Gjennomgang og distribusjon",
+          "content": "Hver versjon gjennomgår Chrome Web Store-gjennomgang. Bedrifts‑IT kan tillate eller blokkere via gruppepolitikker."
+        },
+        {
+          "heading": "8. URL-blokkering",
+          "content": "Utvidelsen blokkerer ikke URL-er og filtrerer ikke innhold utenfor lydopplastingsområdet."
+        },
+        {
+          "heading": "9. Endringer i policyen",
+          "content": "Vi forbeholder oss retten til å oppdatere denne policyen. Endringer vises her med dato og i endringsloggen til Web Store."
+        },
+        {
+          "heading": "10. Kontakt",
+          "content": "For spørsmål, kontakt: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "pl": {
+      "title": "Polityka prywatności rozszerzenia Uploader++",
+      "lastUpdated": "Ostatnia aktualizacja: 3 maja 2025",
+      "sections": [
+        {
+          "heading": "1. Wprowadzenie",
+          "content": "Uploader++ pomaga przesyłać pliki audio do Roblox bezpośrednio z Chrome. Niniejsza polityka wyjaśnia, jakie dane i uprawnienia są potrzebne rozszerzeniu oraz jak są używane i chronione."
+        },
+        {
+          "heading": "2. Uprawnienia i hosty",
+          "subsections": [
+            {
+              "subheading": "2.1. Uprawnienia",
+              "items": [
+                "activeTab: wstrzykiwanie interfejsu tylko na create.roblox.com",
+                "scripting: wstawianie przycisków i nasłuchiwaczy zdarzeń",
+                "webNavigation: wykrywanie zmian nawigacji w SPA",
+                "storage: przechowywanie ustawień lokalnie"
+              ]
+            },
+            {
+              "subheading": "2.2. Autoryzowane hosty",
+              "items": [
+                "https://*.roblox.com/*: przesyłanie audio i pobieranie tokenu CSRF",
+                "https://*.rbxcdn.com/*: kompatybilność z zasobami statycznymi"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. Bezpieczeństwo",
+          "items": [
+            "HTTPS dla wszystkich żądań",
+            "Oficjalny token CSRF Roblox",
+            "Kod wolny od malware"
+          ]
+        },
+        {
+          "heading": "4. Przejrzystość i wykorzystanie danych",
+          "items": [
+            "Pliki audio wybrane ręcznie przez użytkownika",
+            "Ustawienia przechowywane lokalnie",
+            "Bezpośrednie przesyłanie do API Roblox"
+          ]
+        },
+        {
+          "heading": "5. Udostępnianie danych",
+          "content": "Brak udostępniania osobom trzecim, z wyjątkiem Roblox w celu publikacji wybranych plików audio."
+        },
+        {
+          "heading": "6. Treść i linki partnerskie",
+          "items": [
+            "Brak treści nieodpowiednich (przemoc, pornografia, mowa nienawiści)",
+            "Brak linków partnerskich; jeśli zostaną dodane, zostaną ujawnione przed instalacją"
+          ]
+        },
+        {
+          "heading": "7. Przegląd i dystrybucja",
+          "content": "Każda wersja przechodzi przegląd w Chrome Web Store. IT może zezwolić lub zablokować za pomocą zasad grupy."
+        },
+        {
+          "heading": "8. Blokowanie URL",
+          "content": "Rozszerzenie nie blokuje adresów URL ani nie filtruje treści poza zakresem przesyłania audio."
+        },
+        {
+          "heading": "9. Zmiany w polityce",
+          "content": "Zastrzegamy sobie prawo do aktualizacji tej polityki. Zmiany będą odzwierciedlone tutaj wraz z datą i w changelogu Web Store."
+        },
+        {
+          "heading": "10. Kontakt",
+          "content": "W sprawach pytań skontaktuj się: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    },
+    "tr": {
+      "title": "Uploader++ Uzantısı Gizlilik Politikası",
+      "lastUpdated": "Son güncelleme: 3 Mayıs 2025",
+      "sections": [
+        {
+          "heading": "1. Giriş",
+          "content": "Uploader++ size Chrome’dan doğrudan Roblox’a ses dosyaları yüklemenize yardımcı olur. Bu politika, uzantının hangi veri ve izinleri gerektirdiğini, nasıl kullanıldığını ve korunduğunu açıklar."
+        },
+        {
+          "heading": "2. İzinler ve Ana Bilgisayarlar",
+          "subsections": [
+            {
+              "subheading": "2.1. İzinler",
+              "items": [
+                "activeTab: yalnızca create.roblox.com’da UI enjekte eder",
+                "scripting: düğmeler ve olay dinleyicileri ekler",
+                "webNavigation: SPA gezinme değişikliklerini algılar",
+                "storage: tercihler yerel olarak saklanır"
+              ]
+            },
+            {
+              "subheading": "2.2. Yetkili Ana Bilgisayarlar",
+              "items": [
+                "https://*.roblox.com/*: ses yükleme ve CSRF belirteci alma",
+                "https://*.rbxcdn.com/*: statik kaynak uyumluluğu"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "3. Güvenlik",
+          "items": [
+            "Tüm istekler için HTTPS",
+            "Resmi Roblox CSRF belirteci",
+            "Kötü amaçlı yazılımdan ari kod"
+          ]
+        },
+        {
+          "heading": "4. Şeffaflık ve Veri Kullanımı",
+          "items": [
+            "Kullanıcı tarafından elle seçilen ses dosyaları",
+            "Ayarlar yerel olarak saklanır",
+            "Doğrudan Roblox API’lerine yükleme"
+          ]
+        },
+        {
+          "heading": "5. Veri Paylaşımı",
+          "content": "Seçilen sesleri yayınlamak için Roblox dışında üçüncü taraflarla paylaşım yapılmaz."
+        },
+        {
+          "heading": "6. İçerik ve Ortaklık Linkleri",
+          "items": [
+            "Uygunsuz içerik yok (şiddet, pornografi, nefret söylemi)",
+            "Ortaklık linki yok; eklenirse yüklemeden önce bildirilecektir"
+          ]
+        },
+        {
+          "heading": "7. İnceleme ve Dağıtım",
+          "content": "Her sürüm Chrome Web Store incelemesinden geçer. Kurumsal BT, grup ilkeleri aracılığıyla izin verebilir veya engelleyebilir."
+        },
+        {
+          "heading": "8. URL Engelleme",
+          "content": "Uzantı, URL’leri engellemez veya ses yükleme kapsamı dışında içerik filtrelemesi yapmaz."
+        },
+        {
+          "heading": "9. Politika Değişiklikleri",
+          "content": "Bu politikayı güncelleme hakkını saklı tutarız. Değişiklikler burada tarihle ve Web Store değişiklik günlüğünde yayınlanacaktır."
+        },
+        {
+          "heading": "10. İletişim",
+          "content": "Sorular için iletişime geçin: privacy@uploaderplusplus.example.com"
+        }
+      ]
+    }
   }
-}
