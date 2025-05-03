@@ -1,10 +1,15 @@
 (async () => {
-  const url = chrome.runtime.getURL('public/privacy_translations.json');
-  const res = await fetch(url);
-  const data = await res.json();
+  let data;
+  try {
+    const res = await fetch('privacy_translations.json');
+    data = await res.json();
+  } catch (err) {
+    console.error('Erro ao carregar traduções:', err);
+    return;
+  }
 
   const lang = navigator.language.split('-')[0];
-  const tr = data[lang] || data['en'];
+  const tr   = data[lang] || data['en'];
 
   const container = document.getElementById('privacy-content');
   if (!container) return;
@@ -16,9 +21,7 @@
 
   tr.sections.forEach(sec => {
     html += `<h2>${sec.heading}</h2>`;
-    if (sec.content) {
-      html += `<p>${sec.content}</p>`;
-    }
+    if (sec.content) html += `<p>${sec.content}</p>`;
     if (sec.items) {
       html += '<ul>';
       sec.items.forEach(item => {
@@ -32,12 +35,13 @@
         sub.items.forEach(item => {
           html += `<li>${item}</li>`;
         });
-        html += '</ul>';
+        html += '</ul>`;
       });
     }
   });
 
-  html += `<h2>Contact</h2><p>${tr.contact}</p>`;
+  html += `<h2>${lang === 'pt' ? 'Contato' : 'Contact'}</h2>`;
+  html += `<p>${tr.contact}</p>`;
 
   container.innerHTML = html;
 })();
