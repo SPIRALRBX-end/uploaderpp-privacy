@@ -1,5 +1,5 @@
 (async () => {
-  const url = chrome.runtime.getURL('../public/privacy_translations.json');
+  const url = chrome.runtime.getURL('public/privacy_translations.json');
   const res = await fetch(url);
   const data = await res.json();
 
