@@ -1,7 +1,7 @@
 (async () => {
   let data;
   try {
-    const res = await fetch('privacy_translations.json');
+    const res = await fetch('public/privacy_translations.json');
     data = await res.json();
   } catch (err) {
     console.error('Erro ao carregar traduções:', err);
