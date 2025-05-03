@@ -1,10 +1,15 @@
-(async () => {
+document.addEventListener('DOMContentLoaded', async () => {
+  const jsonUrl = 'privacy_translations.json';
+
   let data;
   try {
-    const res = await fetch('public/privacy_translations.json');
+    const res = await fetch(jsonUrl);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     data = await res.json();
   } catch (err) {
-    console.error('Erro ao carregar traduções:', err);
+    console.error('❌ Não foi possível carregar privacy_translations.json:', err);
+    document.getElementById('privacy-content').innerHTML =
+      '<p style="color:red">Erro ao carregar conteúdo. Tente recarregar a página.</p>';
     return;
   }
 
@@ -24,17 +29,13 @@
     if (sec.content) html += `<p>${sec.content}</p>`;
     if (sec.items) {
       html += '<ul>';
-      sec.items.forEach(item => {
-        html += `<li>${item}</li>`;
-      });
+      sec.items.forEach(item => html += `<li>${item}</li>`);
       html += '</ul>';
     }
     if (sec.subsections) {
       sec.subsections.forEach(sub => {
         html += `<h3>${sub.subheading}</h3><ul>`;
-        sub.items.forEach(item => {
-          html += `<li>${item}</li>`;
-        });
+        sub.items.forEach(item => html += `<li>${item}</li>`);
         html += '</ul>`;
       });
     }
@@ -44,4 +45,4 @@
   html += `<p>${tr.contact}</p>`;
 
   container.innerHTML = html;
-})();
+});
