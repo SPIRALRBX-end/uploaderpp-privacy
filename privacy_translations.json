@@ -14,8 +14,8 @@
             "subheading": "2.1. Permissões",
             "items": [
               "activeTab: injeção de UI apenas em create.roblox.com",
-              "scripting: inserção de botões e listeners",
-              "webNavigation: detecta mudanças em SPAs",
+              "scripting: para inserir botões e listeners",
+              "webNavigation: detecta mudanças em SPAs do Roblox",
               "storage: armazena preferências localmente"
             ]
           },
@@ -31,29 +31,55 @@
       {
         "heading": "3. Segurança",
         "items": [
-          "HTTPS em todas as requisições",
-          "Token CSRF oficial do Roblox",
+          "Conexões seguras por HTTPS",
+          "Uso de token CSRF oficial do Roblox",
           "Código livre de malware"
         ]
       },
       {
         "heading": "4. Transparência e Uso de Dados",
         "items": [
-          "Áudios selecionados manualmente pelo usuário",
-          "Configurações armazenadas localmente",
+          "Arquivos de áudio selecionados manualmente",
+          "Configurações salvas localmente",
           "Uploads diretos às APIs do Roblox"
         ]
+      },
+      {
+        "heading": "5. Compartilhamento de Dados",
+        "content": "Não há compartilhamento com terceiros, exceto com o Roblox para publicar os áudios selecionados."
+      },
+      {
+        "heading": "6. Conteúdo e Afiliados",
+        "items": [
+          "Sem conteúdo questionável (violência, pornografia, discurso de ódio)",
+          "Sem links de afiliados; qualquer futuro será divulgado antes da instalação"
+        ]
+      },
+      {
+        "heading": "7. Revisão e Distribuição",
+        "content": "Cada versão passa pelo processo de revisão da Chrome Web Store. Administradores corporativos podem usar políticas de grupo para permitir ou bloquear a extensão."
+      },
+      {
+        "heading": "8. Bloqueio de URLs",
+        "content": "A extensão não implementa bloqueio de URLs ou filtragem de conteúdo além do escopo de upload de áudio."
+      },
+      {
+        "heading": "9. Alterações nesta Política",
+        "content": "Reservamo-nos o direito de atualizar esta política. Mudanças serão refletidas aqui com data de modificação e no changelog da Web Store."
+      },
+      {
+        "heading": "10. Contato",
+        "content": "Para dúvidas, entre em contato: privacy@uploaderplusplus.example.com"
       }
-    ],
-    "contact": "Para dúvidas, entre em contato: privacy@uploaderplusplus.example.com"
+    ]
   },
   "en": {
-    "title": "Privacy Policy for Uploader++ Extension",
+    "title": "Privacy Policy – Uploader++ Extension",
     "lastUpdated": "Last updated: May 3, 2025",
     "sections": [
       {
         "heading": "1. Introduction",
-        "content": "Uploader++ helps you upload audio files to Roblox directly from Chrome. This policy explains what data and permissions the extension requires, how it’s used and protected."
+        "content": "Uploader++ helps you upload audio files to Roblox directly from Chrome. This policy explains what data and permissions the extension requires, how they’re used and protected."
       },
       {
         "heading": "2. Permissions and Hosts",
@@ -61,17 +87,17 @@
           {
             "subheading": "2.1. Permissions",
             "items": [
-              "activeTab: injects UI only on create.roblox.com",
-              "scripting: inserts buttons and listeners",
-              "webNavigation: detects SPA navigation changes",
-              "storage: stores preferences locally"
+              "activeTab – injects UI only on create.roblox.com",
+              "scripting – inserts buttons and event listeners",
+              "webNavigation – detects SPA navigation changes",
+              "storage – stores preferences locally"
             ]
           },
           {
             "subheading": "2.2. Hosts",
             "items": [
-              "https://*.roblox.com/*: audio upload and CSRF token retrieval",
-              "https://*.rbxcdn.com/*: static resource compatibility"
+              "https://*.roblox.com/* – audio upload & CSRF token retrieval",
+              "https://*.rbxcdn.com/* – static resource compatibility"
             ]
           }
         ]
@@ -91,8 +117,34 @@
           "Settings stored locally",
           "Direct uploads to Roblox APIs"
         ]
+      },
+      {
+        "heading": "5. Data Sharing",
+        "content": "No sharing with third parties, except with Roblox to publish the selected audios."
+      },
+      {
+        "heading": "6. Content & Affiliates",
+        "items": [
+          "No objectionable content (violence, pornography, hate speech)",
+          "No affiliate links; if added later, will be disclosed before installation"
+        ]
+      },
+      {
+        "heading": "7. Review & Distribution",
+        "content": "Each version passes Chrome Web Store review. Corporate IT can allow or block via group policies."
+      },
+      {
+        "heading": "8. URL Blocking",
+        "content": "The extension does not block URLs or filter content beyond audio upload scope."
+      },
+      {
+        "heading": "9. Policy Changes",
+        "content": "We reserve the right to update this policy. Changes will be reflected here with dates and in changelog."
+      },
+      {
+        "heading": "10. Contact",
+        "content": "For inquiries, contact: privacy@uploaderplusplus.example.com"
       }
-    ],
-    "contact": "For inquiries, contact: privacy@uploaderplusplus.example.com"
+    ]
   }
 }
