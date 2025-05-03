@@ -1,14 +1,11 @@
 (async () => {
-  // carrega o arquivo de traduções
   const url = chrome.runtime.getURL('privacy_translations.json');
   const res = await fetch(url);
   const data = await res.json();
 
-  // determina idioma: 'pt' ou 'en'
   const lang = navigator.language.split('-')[0];
   const tr = data[lang] || data['en'];
 
-  // constrói o HTML
   const container = document.getElementById('privacy-content');
   if (!container) return;
 
