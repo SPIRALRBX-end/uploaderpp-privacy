@@ -1,0 +1,1250 @@
+{
+  "en": {
+    "title": "Privacy Policy – Uploader++ Extension",
+    "lastUpdated": "Last updated: July 25, 2025",
+    "sections": [
+      {
+        "heading": "1. Introduction",
+        "content": "Uploader++ helps you upload and manage audio files on Roblox directly from Chrome. This policy explains what data and permissions the extension requires, how they are used and protected, covering features like multi-upload, audio generation, local history, and asset previews."
+      },
+      {
+        "heading": "2. Permissions and Hosts",
+        "subsections": [
+          {
+            "subheading": "2.1. Permissions",
+            "items": [
+              "activeTab – Injects UI elements (buttons, previews) only on the active create.roblox.com tab.",
+              "scripting – Inserts buttons, event listeners, and preview players.",
+              "webNavigation – Detects navigation changes within Roblox's Single Page Application to ensure features load correctly.",
+              "storage – Stores user preferences (e.g., toggles in the popup) locally. IndexedDB is also used to store the generation history locally on your computer."
+            ]
+          },
+          {
+            "subheading": "2.2. Hosts",
+            "items": [
+              "https://*.roblox.com/* – Required for core functionalities, including audio uploads, CSRF token retrieval, and fetching moderation status from develop.roblox.com.",
+              "https://*.rbxcdn.com/* – For compatibility with static resources and thumbnails.",
+              "https://publish.roblox.com/* – The specific endpoint used for uploading audio files."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. Security",
+        "items": [
+          "HTTPS for all external requests.",
+          "Usage of the official Roblox CSRF token for authenticated actions.",
+          "Malware-free code, with no obfuscation.",
+          "All user data, including upload history, is stored locally on your device and is not transmitted to our servers."
+        ]
+      },
+      {
+        "heading": "4. Transparency and Data Use",
+        "items": [
+          "Audio files are only processed when manually selected by the user for upload or generation.",
+          "User settings are stored locally and synced via Chrome Sync if enabled.",
+          "Uploads are sent directly to Roblox's official APIs.",
+          "A local history of generated audios is stored on your device using IndexedDB. This history includes original filenames, variation names, and the corresponding Roblox Asset IDs to provide the history feature.",
+          "The extension queries Roblox APIs to check the moderation status of audios in your history and to fetch preview data (thumbnails and audio URLs)."
+        ]
+      },
+      {
+        "heading": "5. Data Sharing",
+        "content": "No data is shared with third parties. Data is only exchanged with Roblox's official servers to perform the extension's core functions, such as uploading the audio files you select or checking their status."
+      },
+      {
+        "heading": "6. Content & Affiliates",
+        "items": [
+          "No objectionable content (violence, pornography, hate speech).",
+          "No affiliate links; if any are added in the future, they will be clearly disclosed before installation."
+        ]
+      },
+      {
+        "heading": "7. Review & Distribution",
+        "content": "Each version passes the Chrome Web Store review process. Corporate IT administrators can manage the extension (allow or block) via group policies."
+      },
+      {
+        "heading": "8. URL Blocking",
+        "content": "The extension does not block URLs or filter web content. Its scope is limited to enhancing the audio management tools on Roblox."
+      },
+      {
+        "heading": "9. Policy Changes",
+        "content": "We reserve the right to update this policy. Changes will be reflected on this page with the modification date and noted in the Web Store's changelog."
+      },
+      {
+        "heading": "10. Contact",
+        "content": "For inquiries, please contact: uploader0050@gmail.com"
+      }
+    ]
+  },
+  "pt": {
+    "title": "Política de Privacidade da Extensão Uploader++",
+    "lastUpdated": "Última atualização: 25 de julho de 2025",
+    "sections": [
+      {
+        "heading": "1. Introdução",
+        "content": "Uploader++ ajuda você a enviar e gerenciar arquivos de áudio no Roblox diretamente pelo Chrome. Esta política explica quais dados e permissões a extensão requer, como eles são usados e protegidos, abrangendo recursos como envio múltiplo, geração de áudio, histórico local e pré-visualizações de ativos."
+      },
+      {
+        "heading": "2. Permissões e Hosts Autorizados",
+        "subsections": [
+          {
+            "subheading": "2.1. Permissões",
+            "items": [
+              "activeTab: Injeta elementos de UI (botões, pré-visualizações) apenas na aba ativa do create.roblox.com.",
+              "scripting: Insere botões, listeners de eventos e players de pré-visualização.",
+              "webNavigation: Detecta mudanças de navegação na Single Page Application (SPA) do Roblox para garantir que as funcionalidades carreguem corretamente.",
+              "storage: Armazena as preferências do usuário (ex: opções no popup) localmente. O IndexedDB também é usado para salvar o histórico de gerações localmente no seu computador."
+            ]
+          },
+          {
+            "subheading": "2.2. Hosts",
+            "items": [
+              "https://*.roblox.com/*: Necessário para funcionalidades essenciais, incluindo uploads de áudio, obtenção de token CSRF e busca de status de moderação em develop.roblox.com.",
+              "https://*.rbxcdn.com/*: Para compatibilidade com recursos estáticos e thumbnails.",
+              "https://publish.roblox.com/*: O endpoint específico usado para o upload dos arquivos de áudio."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. Segurança",
+        "items": [
+          "HTTPS para todas as requisições externas.",
+          "Uso do token CSRF oficial do Roblox para ações autenticadas.",
+          "Código livre de malware e sem ofuscação.",
+          "Todos os dados do usuário, incluindo o histórico de uploads, são armazenados localmente no seu dispositivo e não são transmitidos para nossos servidores."
+        ]
+      },
+      {
+        "heading": "4. Transparência e Uso de Dados",
+        "items": [
+          "Arquivos de áudio são processados apenas quando selecionados manualmente pelo usuário para upload ou geração.",
+          "As configurações do usuário são salvas localmente e sincronizadas via Chrome Sync, se ativado.",
+          "Uploads são enviados diretamente para as APIs oficiais do Roblox.",
+          "Um histórico local de áudios gerados é salvo no seu dispositivo usando IndexedDB. Este histórico inclui nomes de arquivos originais, nomes das variações e os IDs de Asset correspondentes do Roblox para prover a funcionalidade de histórico.",
+          "A extensão consulta as APIs do Roblox para verificar o status de moderação dos áudios em seu histórico e para buscar dados de pré-visualização (thumbnails e URLs de áudio)."
+        ]
+      },
+      {
+        "heading": "5. Compartilhamento de Dados",
+        "content": "Nenhum dado é compartilhado com terceiros. Os dados são trocados apenas com os servidores oficiais do Roblox para realizar as funções principais da extensão, como o upload dos arquivos que você seleciona ou a verificação de seu status."
+      },
+      {
+        "heading": "6. Conteúdo e Afiliados",
+        "items": [
+          "Sem conteúdo questionável (violência, pornografia, discurso de ódio).",
+          "Sem links de afiliados; se algum for adicionado no futuro, será claramente divulgado antes da instalação."
+        ]
+      },
+      {
+        "heading": "7. Revisão e Distribuição",
+        "content": "Cada versão passa pelo processo de revisão da Chrome Web Store. Administradores de TI corporativos podem gerenciar a extensão (permitir ou bloquear) através de políticas de grupo."
+      },
+      {
+        "heading": "8. Bloqueio de URLs",
+        "content": "A extensão não bloqueia URLs nem filtra conteúdo da web. Seu escopo é limitado a aprimorar as ferramentas de gerenciamento de áudio no Roblox."
+      },
+      {
+        "heading": "9. Alterações nesta Política",
+        "content": "Reservamo-nos o direito de atualizar esta política. As mudanças serão refletidas nesta página com a data de modificação e informadas no changelog da Web Store."
+      },
+      {
+        "heading": "10. Contato",
+        "content": "Para dúvidas, entre em contato: uploader0050@gmail.com"
+      }
+    ]
+  },
+  "es": {
+    "title": "Política de Privacidad – Extensión Uploader++",
+    "lastUpdated": "Última actualización: 25 de julio de 2025",
+    "sections": [
+      {
+        "heading": "1. Introducción",
+        "content": "Uploader++ te ayuda a subir y gestionar archivos de audio en Roblox directamente desde Chrome. Esta política explica qué datos y permisos requiere la extensión, cómo se utilizan y protegen, cubriendo funciones como la carga múltiple, la generación de audio, el historial local y las vistas previas de assets."
+      },
+      {
+        "heading": "2. Permisos y Hosts",
+        "subsections": [
+          {
+            "subheading": "2.1. Permisos",
+            "items": [
+              "activeTab – Inyecta elementos de la interfaz de usuario (botones, vistas previas) solo en la pestaña activa de create.roblox.com.",
+              "scripting – Inserta botones, escuchas de eventos y reproductores de vista previa.",
+              "webNavigation – Detecta cambios de navegación dentro de la Aplicación de Página Única (Single Page Application) de Roblox para asegurar que las funciones se carguen correctamente.",
+              "storage – Almacena las preferencias del usuario (por ejemplo, los interruptores en el popup) localmente. IndexedDB también se utiliza para almacenar el historial de generación localmente en tu computadora."
+            ]
+          },
+          {
+            "subheading": "2.2. Hosts",
+            "items": [
+              "https://*.roblox.com/* – Requerido para funcionalidades básicas, incluyendo la subida de audio, la obtención del token CSRF y la consulta del estado de moderación desde develop.roblox.com. [9]",
+              "https://*.rbxcdn.com/* – Para compatibilidad con recursos estáticos y miniaturas.",
+              "https://publish.roblox.com/* – El punto de conexión específico utilizado para subir archivos de audio."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. Seguridad",
+        "items": [
+          "HTTPS para todas las solicitudes externas.",
+          "Uso del token CSRF oficial de Roblox para acciones autenticadas.",
+          "Código libre de malware, sin ofuscación.",
+          "Todos los datos del usuario, incluido el historial de subidas, se almacenan localmente en tu dispositivo y no se transmiten a nuestros servidores."
+        ]
+      },
+      {
+        "heading": "4. Transparencia y Uso de Datos",
+        "items": [
+          "Los archivos de audio solo se procesan cuando el usuario los selecciona manualmente para su subida o generación.",
+          "La configuración del usuario se almacena localmente y se sincroniza a través de Chrome Sync si está habilitado.",
+          "Las subidas se envían directamente a las API oficiales de Roblox.",
+          "Un historial local de los audios generados se almacena en tu dispositivo usando IndexedDB. Este historial incluye los nombres de los archivos originales, los nombres de las variaciones y los correspondientes ID de Asset de Roblox para proporcionar la función de historial.",
+          "La extensión consulta las API de Roblox para verificar el estado de moderación de los audios en tu historial y para obtener datos de vista previa (miniaturas y URL de audio)."
+        ]
+      },
+      {
+        "heading": "5. Intercambio de Datos",
+        "content": "No se comparten datos con terceros. Los datos solo se intercambian con los servidores oficiales de Roblox para realizar las funciones principales de la extensión, como subir los archivos de audio que seleccionas o verificar su estado. [2, 7]"
+      },
+      {
+        "heading": "6. Contenido y Afiliados",
+        "items": [
+          "Sin contenido objetable (violencia, pornografía, discurso de odio).",
+          "Sin enlaces de afiliados; si se agregan en el futuro, se divulgarán claramente antes de la instalación."
+        ]
+      },
+      {
+        "heading": "7. Revisión y Distribución",
+        "content": "Cada versión pasa el proceso de revisión de la Chrome Web Store. [14] Los administradores de TI corporativos pueden gestionar la extensión (permitir o bloquear) a través de políticas de grupo."
+      },
+      {
+        "heading": "8. Bloqueo de URL",
+        "content": "La extensión no bloquea URL ni filtra contenido web. [25, 33, 34] Su alcance se limita a mejorar las herramientas de gestión de audio en Roblox."
+      },
+      {
+        "heading": "9. Cambios en la Política",
+        "content": "Nos reservamos el derecho de actualizar esta política. Los cambios se reflejarán en esta página con la fecha de modificación y se indicarán en el registro de cambios de la Web Store. [31, 46]"
+      },
+      {
+        "heading": "10. Contacto",
+        "content": "Para consultas, por favor contacte a: uploader0050@gmail.com [4, 11, 12, 13]"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Politique de Confidentialité – Extension Uploader++",
+    "lastUpdated": "Dernière mise à jour : 25 juillet 2025",
+    "sections": [
+      {
+        "heading": "1. Introduction",
+        "content": "Uploader++ vous aide à télécharger et à gérer des fichiers audio sur Roblox directement depuis Chrome. Cette politique explique quelles données et autorisations l'extension requiert, comment elles sont utilisées et protégées, couvrant des fonctionnalités telles que le téléchargement multiple, la génération audio, l'historique local et les aperçus d'assets."
+      },
+      {
+        "heading": "2. Autorisations et Hôtes",
+        "subsections": [
+          {
+            "subheading": "2.1. Autorisations",
+            "items": [
+              "activeTab – Injecte des éléments d'interface utilisateur (boutons, aperçus) uniquement dans l'onglet actif create.roblox.com.",
+              "scripting – Insère des boutons, des écouteurs d'événements et des lecteurs d'aperçu.",
+              "webNavigation – Détecte les changements de navigation dans l'Application à Page Unique (Single Page Application) de Roblox pour garantir que les fonctionnalités se chargent correctement.",
+              "storage – Stocke les préférences de l'utilisateur (par exemple, les bascules dans la popup) localement. IndexedDB est également utilisé pour stocker l'historique de génération localement sur votre ordinateur."
+            ]
+          },
+          {
+            "subheading": "2.2. Hôtes",
+            "items": [
+              "https://*.roblox.com/* – Nécessaire pour les fonctionnalités de base, y compris les téléchargements audio, la récupération du jeton CSRF et l'obtention du statut de modération depuis develop.roblox.com.",
+              "https://*.rbxcdn.com/* – Pour la compatibilité avec les ressources statiques et les vignettes.",
+              "https://publish.roblox.com/* – Le point de terminaison spécifique utilisé pour le téléchargement de fichiers audio."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. Sécurité",
+        "items": [
+          "HTTPS pour toutes les requêtes externes.",
+          "Utilisation du jeton CSRF officiel de Roblox pour les actions authentifiées.",
+          "Code sans logiciel malveillant, sans obscurcissement.",
+          "Toutes les données de l'utilisateur, y compris l'historique des téléchargements, sont stockées localement sur votre appareil et ne sont pas transmises à nos serveurs."
+        ]
+      },
+      {
+        "heading": "4. Transparence et Utilisation des Données",
+        "items": [
+          "Les fichiers audio ne sont traités que lorsqu'ils sont sélectionnés manuellement par l'utilisateur pour le téléchargement ou la génération.",
+          "Les paramètres de l'utilisateur sont stockés localement et synchronisés via Chrome Sync s'il est activé.",
+          "Les téléchargements sont envoyés directement aux API officielles de Roblox.",
+          "Un historique local des audios générés est stocké sur votre appareil à l'aide d'IndexedDB. Cet historique comprend les noms de fichiers originaux, les noms des variations et les ID d'Asset Roblox correspondants pour fournir la fonctionnalité d'historique.",
+          "L'extension interroge les API de Roblox pour vérifier le statut de modération des audios dans votre historique et pour récupérer les données d'aperçu (vignettes et URL audio)."
+        ]
+      },
+      {
+        "heading": "5. Partage de Données",
+        "content": "Aucune donnée n'est partagée avec des tiers. Les données sont uniquement échangées avec les serveurs officiels de Roblox pour exécuter les fonctions principales de l'extension, telles que le téléchargement des fichiers audio que vous sélectionnez ou la vérification de leur statut."
+      },
+      {
+        "heading": "6. Contenu et Affiliés",
+        "items": [
+          "Aucun contenu répréhensible (violence, pornographie, discours de haine).",
+          "Aucun lien d'affiliation ; si certains sont ajoutés à l'avenir, ils seront clairement divulgués avant l'installation."
+        ]
+      },
+      {
+        "heading": "7. Examen et Distribution",
+        "content": "Chaque version passe le processus d'examen du Chrome Web Store. Les administrateurs informatiques d'entreprise peuvent gérer l'extension (autoriser ou bloquer) via des stratégies de groupe."
+      },
+      {
+        "heading": "8. Blocage d'URL",
+        "content": "L'extension ne bloque pas les URL et ne filtre pas le contenu Web. Son champ d'action se limite à l'amélioration des outils de gestion audio sur Roblox."
+      },
+      {
+        "heading": "9. Modifications de la Politique",
+        "content": "Nous nous réservons le droit de mettre à jour cette politique. Les modifications seront reflétées sur cette page avec la date de modification et notées dans le journal des modifications du Web Store."
+      },
+      {
+        "heading": "10. Contact",
+        "content": "Pour toute demande, veuillez contacter : uploader0050@gmail.com"
+      }
+    ]
+  },
+  "it": {
+    "title": "Informativa sulla Privacy – Estensione Uploader++",
+    "lastUpdated": "Ultimo aggiornamento: 25 luglio 2025",
+    "sections": [
+      {
+        "heading": "1. Introduzione",
+        "content": "Uploader++ ti aiuta a caricare e gestire file audio su Roblox direttamente da Chrome. Questa informativa spiega quali dati e autorizzazioni richiede l'estensione, come vengono utilizzati e protetti, coprendo funzionalità come il caricamento multiplo, la generazione di audio, la cronologia locale e le anteprime degli asset."
+      },
+      {
+        "heading": "2. Autorizzazioni e Host",
+        "subsections": [
+          {
+            "subheading": "2.1. Autorizzazioni",
+            "items": [
+              "activeTab – Inietta elementi dell'interfaccia utente (pulsanti, anteprime) solo nella scheda attiva di create.roblox.com.",
+              "scripting – Inserisce pulsanti, listener di eventi e lettori di anteprima.",
+              "webNavigation – Rileva le modifiche di navigazione all'interno della Single Page Application di Roblox per garantire che le funzionalità vengano caricate correttamente.",
+              "storage – Memorizza le preferenze dell'utente (ad es. gli interruttori nel popup) localmente. IndexedDB viene utilizzato anche per memorizzare la cronologia di generazione localmente sul tuo computer."
+            ]
+          },
+          {
+            "subheading": "2.2. Host",
+            "items": [
+              "https://*.roblox.com/* – Richiesto per le funzionalità principali, inclusi i caricamenti audio, il recupero del token CSRF e il recupero dello stato di moderazione da develop.roblox.com.",
+              "https://*.rbxcdn.com/* – Per la compatibilità con risorse statiche e miniature.",
+              "https://publish.roblox.com/* – L'endpoint specifico utilizzato per il caricamento dei file audio."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. Sicurezza",
+        "items": [
+          "HTTPS per tutte le richieste esterne.",
+          "Utilizzo del token CSRF ufficiale di Roblox per le azioni autenticate.",
+          "Codice privo di malware, senza offuscamento.",
+          "Tutti i dati dell'utente, inclusa la cronologia dei caricamenti, sono memorizzati localmente sul tuo dispositivo e non vengono trasmessi ai nostri server."
+        ]
+      },
+      {
+        "heading": "4. Trasparenza e Utilizzo dei Dati",
+        "items": [
+          "I file audio vengono elaborati solo quando selezionati manualmente dall'utente per il caricamento o la generazione.",
+          "Le impostazioni dell'utente vengono memorizzate localmente e sincronizzate tramite Chrome Sync se abilitato.",
+          "I caricamenti vengono inviati direttamente alle API ufficiali di Roblox.",
+          "Una cronologia locale degli audio generati viene memorizzata sul tuo dispositivo utilizzando IndexedDB. Questa cronologia include i nomi dei file originali, i nomi delle varianti e i corrispondenti ID degli Asset di Roblox per fornire la funzione di cronologia.",
+          "L'estensione interroga le API di Roblox per controllare lo stato di moderazione degli audio nella tua cronologia e per recuperare i dati di anteprima (miniature e URL audio)."
+        ]
+      },
+      {
+        "heading": "5. Condivisione dei Dati",
+        "content": "Nessun dato viene condiviso con terze parti. I dati vengono scambiati solo con i server ufficiali di Roblox per eseguire le funzioni principali dell'estensione, come il caricamento dei file audio selezionati o il controllo del loro stato."
+      },
+      {
+        "heading": "6. Contenuti e Affiliati",
+        "items": [
+          "Nessun contenuto discutibile (violenza, pornografia, incitamento all'odio).",
+          "Nessun link di affiliazione; se ne verranno aggiunti in futuro, saranno chiaramente divulgati prima dell'installazione."
+        ]
+      },
+      {
+        "heading": "7. Revisione e Distribuzione",
+        "content": "Ogni versione supera il processo di revisione del Chrome Web Store. [50] Gli amministratori IT aziendali possono gestire l'estensione (consentirla o bloccarla) tramite criteri di gruppo."
+      },
+      {
+        "heading": "8. Blocco degli URL",
+        "content": "L'estensione non blocca gli URL né filtra i contenuti web. Il suo scopo è limitato al miglioramento degli strumenti di gestione audio su Roblox."
+      },
+      {
+        "heading": "9. Modifiche all'Informativa",
+        "content": "Ci riserviamo il diritto di aggiornare questa informativa. Le modifiche saranno riportate su questa pagina con la data di modifica e annotate nel changelog del Web Store."
+      },
+      {
+        "heading": "10. Contatti",
+        "content": "Per richieste, si prega di contattare: uploader0050@gmail.com"
+      }
+    ]
+  },
+  "zh": {
+    "title": "隐私政策 – Uploader++ 扩展",
+    "lastUpdated": "最后更新：2025年7月25日",
+    "sections": [
+      {
+        "heading": "1. 介绍",
+        "content": "Uploader++ 帮助您直接从 Chrome 上传和管理 Roblox 上的音频文件。本政策解释了该扩展需要哪些数据和权限，如何使用和保护这些数据，涵盖了多文件上传、音频生成、本地历史记录和资产预览等功能。"
+      },
+      {
+        "heading": "2. 权限和主机",
+        "subsections": [
+          {
+            "subheading": "2.1. 权限",
+            "items": [
+              "activeTab – 仅在活动的 create.roblox.com 选项卡上注入用户界面元素（按钮、预览）。",
+              "scripting – 插入按钮、事件监听器和预览播放器。",
+              "webNavigation – 检测 Roblox 单页应用程序内的导航更改，以确保功能正确加载。",
+              "storage – 在本地存储用户偏好（例如，弹出窗口中的开关）。IndexedDB 也用于在您的计算机上本地存储生成历史记录。"
+            ]
+          },
+          {
+            "subheading": "2.2. 主机",
+            "items": [
+              "https://*.roblox.com/* – 核心功能所需，包括音频上传、CSRF 令牌检索以及从 develop.roblox.com 获取审核状态。",
+              "https://*.rbxcdn.com/* – 用于与静态资源和缩略图的兼容性。",
+              "https://publish.roblox.com/* – 用于上传音频文件的特定端点。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. 安全",
+        "items": [
+          "所有外部请求均使用 HTTPS。",
+          "使用官方 Roblox CSRF 令牌进行经过身份验证的操作。",
+          "无恶意软件代码，无混淆。",
+          "所有用户数据，包括上传历史记录，都存储在您的设备本地，不会传输到我们的服务器。"
+        ]
+      },
+      {
+        "heading": "4. 透明度和数据使用",
+        "items": [
+          "音频文件仅在用户手动选择上传或生成时才被处理。",
+          "用户设置存储在本地，如果启用，则通过 Chrome 同步进行同步。",
+          "上传直接发送到 Roblox 的官方 API。",
+          "生成的音频的本地历史记录使用 IndexedDB 存储在您的设备上。此历史记录包括原始文件名、变体名称以及相应的 Roblox 资产 ID，以提供历史记录功能。",
+          "该扩展查询 Roblox API 以检查您历史记录中音频的审核状态，并获取预览数据（缩略图和音频 URL）。"
+        ]
+      },
+      {
+        "heading": "5. 数据共享",
+        "content": "不与任何第三方共享数据。数据仅与 Roblox 的官方服务器交换，以执行扩展的核心功能，例如上传您选择的音频文件或检查其状态。"
+      },
+      {
+        "heading": "6. 内容和附属链接",
+        "items": [
+          "没有令人反感的内容（暴力、色情、仇恨言论）。",
+          "没有附属链接；如果将来添加任何链接，将在安装前明确披露。"
+        ]
+      },
+      {
+        "heading": "7. 审查和分发",
+        "content": "每个版本都通过 Chrome 网上应用店的审查流程。企业 IT 管理员可以通过组策略管理该扩展（允许或阻止）。"
+      },
+      {
+        "heading": "8. URL 阻止",
+        "content": "该扩展不阻止 URL 或过滤网页内容。其范围仅限于增强 Roblox 上的音频管理工具。"
+      },
+      {
+        "heading": "9. 政策变更",
+        "content": "我们保留更新本政策的权利。更改将在此页面上反映修改日期，并在网上应用店的更新日志中注明。"
+      },
+      {
+        "heading": "10. 联系方式",
+        "content": "如有疑问，请联系：uploader0050@gmail.com"
+      }
+    ]
+  },
+  "ko": {
+    "title": "개인정보 보호정책 – Uploader++ 확장 프로그램",
+    "lastUpdated": "최종 업데이트: 2025년 7월 25일",
+    "sections": [
+      {
+        "heading": "1. 소개",
+        "content": "Uploader++는 Chrome에서 직접 Roblox에 오디오 파일을 업로드하고 관리하는 데 도움이 됩니다. 이 정책은 확장 프로그램에 필요한 데이터와 권한, 사용 및 보호 방법을 설명하며 다중 업로드, 오디오 생성, 로컬 기록 및 자산 미리보기와 같은 기능을 다룹니다."
+      },
+      {
+        "heading": "2. 권한 및 호스트",
+        "subsections": [
+          {
+            "subheading": "2.1. 권한",
+            "items": [
+              "activeTab – 활성 create.roblox.com 탭에만 UI 요소(버튼, 미리보기)를 삽입합니다.",
+              "scripting – 버튼, 이벤트 리스너 및 미리보기 플레이어를 삽입합니다.",
+              "webNavigation – Roblox의 단일 페이지 애플리케이션 내에서 탐색 변경을 감지하여 기능이 올바르게 로드되도록 합니다.",
+              "storage – 사용자 기본 설정(예: 팝업의 토글)을 로컬에 저장합니다. IndexedDB는 생성 기록을 컴퓨터에 로컬로 저장하는 데에도 사용됩니다."
+            ]
+          },
+          {
+            "subheading": "2.2. 호스트",
+            "items": [
+              "https://*.roblox.com/* – 오디오 업로드, CSRF 토큰 검색, develop.roblox.com에서 조정 상태 가져오기를 포함한 핵심 기능에 필요합니다.",
+              "https://*.rbxcdn.com/* – 정적 리소스 및 썸네일과의 호환성을 위해.",
+              "https://publish.roblox.com/* – 오디오 파일을 업로드하는 데 사용되는 특정 엔드포인트입니다."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. 보안",
+        "items": [
+          "모든 외부 요청에 HTTPS를 사용합니다.",
+          "인증된 작업에 공식 Roblox CSRF 토큰을 사용합니다.",
+          "난독화가 없는 악성 코드 없는 코드.",
+          "업로드 기록을 포함한 모든 사용자 데이터는 기기에 로컬로 저장되며 당사 서버로 전송되지 않습니다."
+        ]
+      },
+      {
+        "heading": "4. 투명성 및 데이터 사용",
+        "items": [
+          "오디오 파일은 사용자가 업로드 또는 생성을 위해 수동으로 선택한 경우에만 처리됩니다.",
+          "사용자 설정은 로컬에 저장되며 활성화된 경우 Chrome 동기화를 통해 동기화됩니다.",
+          "업로드는 Roblox의 공식 API로 직접 전송됩니다.",
+          "생성된 오디오의 로컬 기록은 IndexedDB를 사용하여 기기에 저장됩니다. 이 기록에는 기록 기능을 제공하기 위해 원본 파일 이름, 변형 이름 및 해당 Roblox 자산 ID가 포함됩니다.",
+          "확장 프로그램은 Roblox API를 쿼리하여 기록에 있는 오디오의 조정 상태를 확인하고 미리보기 데이터(썸네일 및 오디오 URL)를 가져옵니다."
+        ]
+      },
+      {
+        "heading": "5. 데이터 공유",
+        "content": "제3자와 데이터를 공유하지 않습니다. 데이터는 선택한 오디오 파일을 업로드하거나 상태를 확인하는 등 확장 프로그램의 핵심 기능을 수행하기 위해 Roblox의 공식 서버와만 교환됩니다."
+      },
+      {
+        "heading": "6. 콘텐츠 및 제휴",
+        "items": [
+          "불쾌감을 주는 콘텐츠(폭력, 음란물, 증오심 표현)가 없습니다.",
+          "제휴 링크가 없습니다. 향후 추가될 경우 설치 전에 명확하게 공개됩니다."
+        ]
+      },
+      {
+        "heading": "7. 검토 및 배포",
+        "content": "각 버전은 Chrome 웹 스토어 검토 프로세스를 통과합니다. 기업 IT 관리자는 그룹 정책을 통해 확장 프로그램(허용 또는 차단)을 관리할 수 있습니다."
+      },
+      {
+        "heading": "8. URL 차단",
+        "content": "확장 프로그램은 URL을 차단하거나 웹 콘텐츠를 필터링하지 않습니다. 그 범위는 Roblox의 오디오 관리 도구를 향상시키는 데 국한됩니다."
+      },
+      {
+        "heading": "9. 정책 변경",
+        "content": "당사는 이 정책을 업데이트할 권리를 보유합니다. 변경 사항은 이 페이지에 수정 날짜와 함께 반영되며 웹 스토어의 변경 로그에 기록됩니다."
+      },
+      {
+        "heading": "10. 문의",
+        "content": "문의 사항은 uploader0050@gmail.com으로 연락주시기 바랍니다."
+      }
+    ]
+  },
+  "ja": {
+    "title": "プライバシーポリシー – Uploader++ 拡張機能",
+    "lastUpdated": "最終更新日：2025年7月25日",
+    "sections": [
+      {
+        "heading": "1. はじめに",
+        "content": "Uploader++ は、Chrome から直接 Roblox にオーディオファイルをアップロードおよび管理するのに役立ちます。このポリシーでは、拡張機能が必要とするデータと権限、それらの使用方法と保護方法について説明し、マルチアップロード、オーディオ生成、ローカル履歴、アセットプレビューなどの機能を対象としています。"
+      },
+      {
+        "heading": "2. 権限とホスト",
+        "subsections": [
+          {
+            "subheading": "2.1. 権限",
+            "items": [
+              "activeTab – アクティブな create.roblox.com タブにのみ UI 要素（ボタン、プレビュー）を挿入します。",
+              "scripting – ボタン、イベントリスナー、プレビュープレーヤーを挿入します。",
+              "webNavigation – Roblox のシングルページアプリケーション内のナビゲーションの変更を検出し、機能が正しく読み込まれるようにします。",
+              "storage – ユーザー設定（ポップアップのトグルなど）をローカルに保存します。IndexedDB は、生成履歴をコンピュータにローカルに保存するためにも使用されます。"
+            ]
+          },
+          {
+            "subheading": "2.2. ホスト",
+            "items": [
+              "https://*.roblox.com/* – オーディオのアップロード、CSRF トークンの取得、develop.roblox.com からのモデレーションステータスの取得など、コア機能に必要です。",
+              "https://*.rbxcdn.com/* – 静的リソースとサムネイルとの互換性のために。",
+              "https://publish.roblox.com/* – オーディオファイルのアップロードに使用される特定のエンドポイント。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. セキュリティ",
+        "items": [
+          "すべての外部リクエストに対する HTTPS。",
+          "認証済みアクションに対する公式の Roblox CSRF トークンの使用。",
+          "難読化のないマルウェアフリーのコード。",
+          "アップロード履歴を含むすべてのユーザーデータは、デバイスにローカルに保存され、当社のサーバーには送信されません。"
+        ]
+      },
+      {
+        "heading": "4. 透明性とデータ利用",
+        "items": [
+          "オーディオファイルは、ユーザーがアップロードまたは生成のために手動で選択した場合にのみ処理されます。",
+          "ユーザー設定はローカルに保存され、有効になっている場合は Chrome Sync を介して同期されます。",
+          "アップロードは Roblox の公式 API に直接送信されます。",
+          "生成されたオーディオのローカル履歴は、IndexedDB を使用してデバイスに保存されます。この履歴には、履歴機能を提供するために、元のファイル名、バリエーション名、および対応する Roblox アセット ID が含まれます。",
+          "拡張機能は Roblox API にクエリを実行して、履歴内のオーディオのモデレーションステータスを確認し、プレビューデータ（サムネイルとオーディオ URL）を取得します。"
+        ]
+      },
+      {
+        "heading": "5. データ共有",
+        "content": "第三者とデータが共有されることはありません。データは、選択したオーディオファイルのアップロードやステータスの確認など、拡張機能のコア機能を実行するために、Roblox の公式サーバーとのみ交換されます。"
+      },
+      {
+        "heading": "6. コンテンツとアフィリエイト",
+        "items": [
+          "不快なコンテンツ（暴力、ポルノ、ヘイトスピーチ）はありません。",
+          "アフィリエイトリンクはありません。将来追加される場合は、インストール前に明確に開示されます。"
+        ]
+      },
+      {
+        "heading": "7. レビューと配布",
+        "content": "各バージョンは Chrome ウェブストアのレビュープロセスに合格しています。企業の IT 管理者は、グループポリシーを介して拡張機能（許可またはブロック）を管理できます。"
+      },
+      {
+        "heading": "8. URL ブロック",
+        "content": "拡張機能は URL をブロックしたり、ウェブコンテンツをフィルタリングしたりしません。その範囲は、Roblox のオーディオ管理ツールを強化することに限定されています。"
+      },
+      {
+        "heading": "9. ポリシーの変更",
+        "content": "当社は、このポリシーを更新する権利を留保します。変更は、変更日とともにこのページに反映され、ウェブストアの変更履歴に記載されます。"
+      },
+      {
+        "heading": "10. お問い合わせ",
+        "content": "お問い合わせは、uploader0050@gmail.com までご連絡ください。"
+      }
+    ]
+  },
+  "ru": {
+    "title": "Политика конфиденциальности – расширение Uploader++",
+    "lastUpdated": "Последнее обновление: 25 июля 2025 г.",
+    "sections": [
+      {
+        "heading": "1. Введение",
+        "content": "Uploader++ помогает вам загружать и управлять аудиофайлами в Roblox прямо из Chrome. Эта политика объясняет, какие данные и разрешения требуются для расширения, как они используются и защищаются, и охватывает такие функции, как множественная загрузка, создание аудио, локальная история и предварительный просмотр ресурсов."
+      },
+      {
+        "heading": "2. Разрешения и хосты",
+        "subsections": [
+          {
+            "subheading": "2.1. Разрешения",
+            "items": [
+              "activeTab – вставляет элементы пользовательского интерфейса (кнопки, предварительный просмотр) только в активную вкладку create.roblox.com.",
+              "scripting – вставляет кнопки, прослушиватели событий и проигрыватели предварительного просмотра.",
+              "webNavigation – обнаруживает изменения навигации в одностраничном приложении Roblox, чтобы обеспечить правильную загрузку функций.",
+              "storage – хранит пользовательские настройки (например, переключатели во всплывающем окне) локально. IndexedDB также используется для локального хранения истории генерации на вашем компьютере."
+            ]
+          },
+          {
+            "subheading": "2.2. Хосты",
+            "items": [
+              "https://*.roblox.com/* – требуется для основных функций, включая загрузку аудио, получение токена CSRF и получение статуса модерации с develop.roblox.com.",
+              "https://*.rbxcdn.com/* – для совместимости со статическими ресурсами и эскизами.",
+              "https://publish.roblox.com/* – конкретная конечная точка, используемая для загрузки аудиофайлов."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. Безопасность",
+        "items": [
+          "HTTPS для всех внешних запросов.",
+          "Использование официального токена CSRF Roblox для аутентифицированных действий.",
+          "Код без вредоносных программ и обфускации.",
+          "Все пользовательские данные, включая историю загрузок, хранятся локально на вашем устройстве и не передаются на наши серверы."
+        ]
+      },
+      {
+        "heading": "4. Прозрачность и использование данных",
+        "items": [
+          "Аудиофайлы обрабатываются только тогда, когда пользователь вручную выбирает их для загрузки или создания.",
+          "Пользовательские настройки хранятся локально и синхронизируются через Chrome Sync, если он включен.",
+          "Загрузки отправляются непосредственно в официальные API Roblox.",
+          "Локальная история сгенерированных аудио хранится на вашем устройстве с помощью IndexedDB. Эта история включает исходные имена файлов, имена вариаций и соответствующие идентификаторы ресурсов Roblox для обеспечения функции истории.",
+          "Расширение запрашивает API Roblox для проверки статуса модерации аудио в вашей истории и для получения данных предварительного просмотра (эскизы и URL-адреса аудио)."
+        ]
+      },
+      {
+        "heading": "5. Обмен данными",
+        "content": "Данные не передаются третьим лицам. Данные обмениваются только с официальными серверами Roblox для выполнения основных функций расширения, таких как загрузка выбранных вами аудиофайлов или проверка их статуса."
+      },
+      {
+        "heading": "6. Контент и партнерские ссылки",
+        "items": [
+          "Нет нежелательного контента (насилие, порнография, разжигание ненависти).",
+          "Нет партнерских ссылок; если они будут добавлены в будущем, об этом будет четко сообщено перед установкой."
+        ]
+      },
+      {
+        "heading": "7. Проверка и распространение",
+        "content": "Каждая версия проходит процедуру проверки в Интернет-магазине Chrome. Корпоративные ИТ-администраторы могут управлять расширением (разрешать или блокировать) с помощью групповых политик."
+      },
+      {
+        "heading": "8. Блокировка URL-адресов",
+        "content": "Расширение не блокирует URL-адреса и не фильтрует веб-контент. Его сфера действия ограничена улучшением инструментов управления аудио в Roblox."
+      },
+      {
+        "heading": "9. Изменения в политике",
+        "content": "Мы оставляем за собой право обновлять эту политику. Изменения будут отражены на этой странице с датой изменения и отмечены в журнале изменений Интернет-магазина."
+      },
+      {
+        "heading": "10. Контакты",
+        "content": "По вопросам обращайтесь по адресу: uploader0050@gmail.com"
+      }
+    ]
+  },
+  "ar": {
+    "title": "سياسة الخصوصية - إضافة Uploader++",
+    "lastUpdated": "آخر تحديث: 25 يوليو 2025",
+    "sections": [
+      {
+        "heading": "1. مقدمة",
+        "content": "يساعدك Uploader++ في تحميل وإدارة ملفات الصوت على Roblox مباشرة من Chrome. تشرح هذه السياسة البيانات والأذونات التي يتطلبها الامتداد ، وكيفية استخدامها وحمايتها ، وتغطي ميزات مثل التحميل المتعدد وإنشاء الصوت والسجل المحلي ومعاينات الأصول."
+      },
+      {
+        "heading": "2. الأذونات والمضيفون",
+        "subsections": [
+          {
+            "subheading": "2.1. الأذونات",
+            "items": [
+              "activeTab - يُدخل عناصر واجهة المستخدم (الأزرار ، المعاينات) فقط في علامة التبويب النشطة create.roblox.com.",
+              "scripting - يُدرج الأزرار ومستمعي الأحداث ومشغلات المعاينة.",
+              "webNavigation - يكتشف تغييرات التنقل داخل تطبيق الصفحة الواحدة الخاص بـ Roblox لضمان تحميل الميزات بشكل صحيح.",
+              "storage - يخزن تفضيلات المستخدم (على سبيل المثال ، التبديل في النافذة المنبثقة) محليًا. يستخدم IndexedDB أيضًا لتخزين محفوظات الإنشاء محليًا على جهاز الكمبيوتر الخاص بك."
+            ]
+          },
+          {
+            "subheading": "2.2. المضيفون",
+            "items": [
+              "https://*.roblox.com/* - مطلوب للوظائف الأساسية ، بما في ذلك تحميلات الصوت واسترداد رمز CSRF وجلب حالة الإشراف من develop.roblox.com.",
+              "https://*.rbxcdn.com/* - للتوافق مع الموارد الثابتة والصور المصغرة.",
+              "https://publish.roblox.com/* - نقطة النهاية المحددة المستخدمة لتحميل ملفات الصوت."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. الأمن",
+        "items": [
+          "HTTPS لجميع الطلبات الخارجية.",
+          "استخدام رمز CSRF الرسمي لـ Roblox للإجراءات الموثوقة.",
+          "كود خالٍ من البرامج الضارة ، بدون تشويش.",
+          "يتم تخزين جميع بيانات المستخدم ، بما في ذلك سجل التحميل ، محليًا على جهازك ولا يتم نقلها إلى خوادمنا."
+        ]
+      },
+      {
+        "heading": "4. الشفافية واستخدام البيانات",
+        "items": [
+          "تتم معالجة ملفات الصوت فقط عند تحديدها يدويًا من قبل المستخدم للتحميل أو الإنشاء.",
+          "يتم تخزين إعدادات المستخدم محليًا ومزامنتها عبر Chrome Sync إذا تم تمكينها.",
+          "يتم إرسال التحميلات مباشرة إلى واجهات برمجة التطبيقات الرسمية لـ Roblox.",
+          "يتم تخزين سجل محلي للصوتيات التي تم إنشاؤها على جهازك باستخدام IndexedDB. يتضمن هذا السجل أسماء الملفات الأصلية وأسماء الاختلافات ومعرفات أصول Roblox المقابلة لتوفير ميزة السجل.",
+          "يستعلم الامتداد عن واجهات برمجة تطبيقات Roblox للتحقق من حالة الإشراف على الصوتيات في سجلك ولجلب بيانات المعاينة (الصور المصغرة وعناوين URL للصوت)."
+        ]
+      },
+      {
+        "heading": "5. مشاركة البيانات",
+        "content": "لا تتم مشاركة أي بيانات مع أطراف ثالثة. يتم تبادل البيانات فقط مع خوادم Roblox الرسمية لأداء الوظائف الأساسية للإضافة ، مثل تحميل ملفات الصوت التي تحددها أو التحقق من حالتها."
+      },
+      {
+        "heading": "6. المحتوى والشركات التابعة",
+        "items": [
+          "لا يوجد محتوى مرفوض (عنف ، إباحية ، خطاب كراهية).",
+          "لا توجد روابط تابعة ؛ إذا تمت إضافة أي منها في المستقبل ، فسيتم الكشف عنها بوضوح قبل التثبيت."
+        ]
+      },
+      {
+        "heading": "7. المراجعة والتوزيع",
+        "content": "يمر كل إصدار بعملية مراجعة متجر Chrome الإلكتروني. يمكن لمسؤولي تكنولوجيا المعلومات في الشركات إدارة الإضافة (السماح أو الحظر) عبر سياسات المجموعة."
+      },
+      {
+        "heading": "8. حظر URL",
+        "content": "لا يقوم الامتداد بحظر عناوين URL أو تصفية محتوى الويب. يقتصر نطاقه على تحسين أدوات إدارة الصوت على Roblox."
+      },
+      {
+        "heading": "9. تغييرات السياسة",
+        "content": "نحتفظ بالحق في تحديث هذه السياسة. ستنعكس التغييرات على هذه الصفحة مع تاريخ التعديل وتدوينها في سجل التغييرات في متجر الويب."
+      },
+      {
+        "heading": "10. الاتصال",
+        "content": "للاستفسارات ، يرجى الاتصال بـ: uploader0050@gmail.com"
+      }
+    ]
+  },
+  "hi": {
+    "title": "गोपनीयता नीति - Uploader++ एक्सटेंशन",
+    "lastUpdated": "अंतिम अपडेट: 25 जुलाई, 2025",
+    "sections": [
+      {
+        "heading": "1. परिचय",
+        "content": "Uploader++ आपको सीधे Chrome से Roblox पर ऑडियो फ़ाइलें अपलोड और प्रबंधित करने में मदद करता है। यह नीति बताती है कि एक्सटेंशन को कौन से डेटा और अनुमतियों की आवश्यकता है, उनका उपयोग और सुरक्षा कैसे की जाती है, जिसमें मल्टी-अपलोड, ऑडियो जनरेशन, स्थानीय इतिहास और संपत्ति पूर्वावलोकन जैसी सुविधाएँ शामिल हैं।"
+      },
+      {
+        "heading": "2. अनुमतियाँ और होस्ट",
+        "subsections": [
+          {
+            "subheading": "2.1. अनुमतियाँ",
+            "items": [
+              "activeTab - UI तत्वों (बटन, पूर्वावलोकन) को केवल सक्रिय create.roblox.com टैब पर इंजेक्ट करता है।",
+              "scripting - बटन, ईवेंट श्रोता और पूर्वावलोकन प्लेयर सम्मिलित करता है।",
+              "webNavigation - सुविधाओं को सही ढंग से लोड करने के लिए Roblox के सिंगल पेज एप्लिकेशन के भीतर नेविगेशन परिवर्तनों का पता लगाता है।",
+              "storage - उपयोगकर्ता की प्राथमिकताओं (जैसे, पॉपअप में टॉगल) को स्थानीय रूप से संग्रहीत करता है। IndexedDB का उपयोग आपके कंप्यूटर पर स्थानीय रूप से पीढ़ी के इतिहास को संग्रहीत करने के लिए भी किया जाता है।"
+            ]
+          },
+          {
+            "subheading": "2.2. होस्ट",
+            "items": [
+              "https://*.roblox.com/* - ऑडियो अपलोड, CSRF टोकन पुनर्प्राप्ति, और develop.roblox.com से मॉडरेशन स्थिति प्राप्त करने सहित मुख्य कार्यात्मकताओं के लिए आवश्यक है।",
+              "https://*.rbxcdn.com/* - स्थिर संसाधनों और थंबनेल के साथ संगतता के लिए।",
+              "https://publish.roblox.com/* - ऑडियो फ़ाइलों को अपलोड करने के लिए उपयोग किया जाने वाला विशिष्ट समापन बिंदु।"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. सुरक्षा",
+        "items": [
+          "सभी बाहरी अनुरोधों के लिए HTTPS।",
+          "प्रमाणित कार्यों के लिए आधिकारिक Roblox CSRF टोकन का उपयोग।",
+          "मैलवेयर-मुक्त कोड, कोई अस्पष्टता नहीं।",
+          "अपलोड इतिहास सहित सभी उपयोगकर्ता डेटा, आपके डिवाइस पर स्थानीय रूप से संग्रहीत किया जाता है और हमारे सर्वर पर प्रेषित नहीं किया जाता है।"
+        ]
+      },
+      {
+        "heading": "4. पारदर्शिता और डेटा उपयोग",
+        "items": [
+          "ऑडियो फ़ाइलों को केवल तभी संसाधित किया जाता है जब उपयोगकर्ता द्वारा अपलोड या पीढ़ी के लिए मैन्युअल रूप से चुना जाता है।",
+          "उपयोगकर्ता सेटिंग्स स्थानीय रूप से संग्रहीत की जाती हैं और यदि सक्षम हो तो Chrome सिंक के माध्यम से समन्वयित की जाती हैं।",
+          "अपलोड सीधे Roblox के आधिकारिक API पर भेजे जाते हैं।",
+          "उत्पन्न ऑडियो का एक स्थानीय इतिहास IndexedDB का उपयोग करके आपके डिवाइस पर संग्रहीत किया जाता है। इस इतिहास में इतिहास सुविधा प्रदान करने के लिए मूल फ़ाइल नाम, भिन्नता नाम और संबंधित Roblox एसेट आईडी शामिल हैं।",
+          "एक्सटेंशन आपके इतिहास में ऑडियो की मॉडरेशन स्थिति की जांच करने और पूर्वावलोकन डेटा (थंबनेल और ऑडियो URL) लाने के लिए Roblox API से पूछताछ करता है।"
+        ]
+      },
+      {
+        "heading": "5. डेटा साझाकरण",
+        "content": "तीसरे पक्ष के साथ कोई डेटा साझा नहीं किया जाता है। डेटा का आदान-प्रदान केवल Roblox के आधिकारिक सर्वरों के साथ एक्सटेंशन के मुख्य कार्यों को करने के लिए किया जाता है, जैसे कि आपके द्वारा चुनी गई ऑडियो फ़ाइलों को अपलोड करना या उनकी स्थिति की जाँच करना।"
+      },
+      {
+        "heading": "6. सामग्री और सहयोगी",
+        "items": [
+          "कोई आपत्तिजनक सामग्री नहीं (हिंसा, अश्लील साहित्य, अभद्र भाषा)।",
+          "कोई संबद्ध लिंक नहीं; यदि भविष्य में कोई जोड़ा जाता है, तो उन्हें स्थापना से पहले स्पष्ट रूप से प्रकट किया जाएगा।"
+        ]
+      },
+      {
+        "heading": "7. समीक्षा और वितरण",
+        "content": "प्रत्येक संस्करण Chrome वेब स्टोर समीक्षा प्रक्रिया से गुजरता है। कॉर्पोरेट आईटी प्रशासक समूह नीतियों के माध्यम से एक्सटेंशन (अनुमति या ब्लॉक) का प्रबंधन कर सकते हैं।"
+      },
+      {
+        "heading": "8. URL अवरोधन",
+        "content": "एक्सटेंशन URL को ब्लॉक नहीं करता है या वेब सामग्री को फ़िल्टर नहीं करता है। इसका दायरा Roblox पर ऑडियो प्रबंधन टूल को बढ़ाने तक सीमित है।"
+      },
+      {
+        "heading": "9. नीति में परिवर्तन",
+        "content": "हम इस नीति को अपडेट करने का अधिकार सुरक्षित रखते हैं। परिवर्तन इस पृष्ठ पर संशोधन तिथि के साथ परिलक्षित होंगे और वेब स्टोर के चेंजलॉग में नोट किए जाएंगे।"
+      },
+      {
+        "heading": "10. संपर्क करें",
+        "content": "पूछताछ के लिए, कृपया संपर्क करें: uploader0050@gmail.com"
+      }
+    ]
+  },
+  "nl": {
+    "title": "Privacybeleid – Uploader++ Extensie",
+    "lastUpdated": "Laatst bijgewerkt: 25 juli 2025",
+    "sections": [
+      {
+        "heading": "1. Inleiding",
+        "content": "Uploader++ helpt u bij het uploaden en beheren van audiobestanden op Roblox, rechtstreeks vanuit Chrome. Dit beleid legt uit welke gegevens en toestemmingen de extensie vereist, hoe deze worden gebruikt en beschermd, en behandelt functies zoals multi-upload, audiogeneratie, lokale geschiedenis en voorbeelden van bedrijfsmiddelen."
+      },
+      {
+        "heading": "2. Toestemmingen en hosts",
+        "subsections": [
+          {
+            "subheading": "2.1. Toestemmingen",
+            "items": [
+              "activeTab – Injecteert UI-elementen (knoppen, voorbeelden) alleen op het actieve tabblad create.roblox.com.",
+              "scripting – Voegt knoppen, gebeurtenislisteners en voorbeeldspelers in.",
+              "webNavigation – Detecteert navigatiewijzigingen binnen de Single Page Application van Roblox om ervoor te zorgen dat functies correct worden geladen.",
+              "storage – Slaat gebruikersvoorkeuren (bijv. schakelaars in de pop-up) lokaal op. IndexedDB wordt ook gebruikt om de generatiegeschiedenis lokaal op uw computer op te slaan."
+            ]
+          },
+          {
+            "subheading": "2.2. Hosts",
+            "items": [
+              "https://*.roblox.com/* – Vereist voor kernfunctionaliteiten, waaronder audio-uploads, het ophalen van CSRF-tokens en het ophalen van de moderatiestatus van develop.roblox.com.",
+              "https://*.rbxcdn.com/* – Voor compatibiliteit met statische bronnen en miniaturen.",
+              "https://publish.roblox.com/* – Het specifieke eindpunt dat wordt gebruikt voor het uploaden van audiobestanden."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. Beveiliging",
+        "items": [
+          "HTTPS voor alle externe verzoeken.",
+          "Gebruik van het officiële Roblox CSRF-token voor geverifieerde acties.",
+          "Malware-vrije code, zonder verduistering.",
+          "Alle gebruikersgegevens, inclusief de uploadgeschiedenis, worden lokaal op uw apparaat opgeslagen en niet naar onze servers verzonden."
+        ]
+      },
+      {
+        "heading": "4. Transparantie en gegevensgebruik",
+        "items": [
+          "Audiobestanden worden alleen verwerkt wanneer ze handmatig door de gebruiker zijn geselecteerd voor uploaden of genereren.",
+          "Gebruikersinstellingen worden lokaal opgeslagen en gesynchroniseerd via Chrome Sync indien ingeschakeld.",
+          "Uploads worden rechtstreeks naar de officiële API's van Roblox verzonden.",
+          "Een lokale geschiedenis van gegenereerde audio wordt op uw apparaat opgeslagen met behulp van IndexedDB. Deze geschiedenis bevat originele bestandsnamen, variatienamen en de bijbehorende Roblox Asset-ID's om de geschiedenisfunctie te bieden.",
+          "De extensie bevraagt de Roblox API's om de moderatiestatus van audio in uw geschiedenis te controleren en om voorbeeldgegevens (miniaturen en audio-URL's) op te halen."
+        ]
+      },
+      {
+        "heading": "5. Gegevens delen",
+        "content": "Er worden geen gegevens gedeeld met derden. Gegevens worden alleen uitgewisseld met de officiële servers van Roblox om de kernfuncties van de extensie uit te voeren, zoals het uploaden van de audiobestanden die u selecteert of het controleren van hun status."
+      },
+      {
+        "heading": "6. Inhoud en partners",
+        "items": [
+          "Geen aanstootgevende inhoud (geweld, pornografie, haatzaaiende uitlatingen).",
+          "Geen affiliate-links; als er in de toekomst toch links worden toegevoegd, wordt dit duidelijk vermeld vóór de installatie."
+        ]
+      },
+      {
+        "heading": "7. Beoordeling en distributie",
+        "content": "Elke versie doorstaat het beoordelingsproces van de Chrome Web Store. IT-beheerders van bedrijven kunnen de extensie beheren (toestaan of blokkeren) via groepsbeleid."
+      },
+      {
+        "heading": "8. URL-blokkering",
+        "content": "De extensie blokkeert geen URL's of filtert geen webinhoud. Het toepassingsgebied is beperkt tot het verbeteren van de tools voor audiobeheer op Roblox."
+      },
+      {
+        "heading": "9. Beleidswijzigingen",
+        "content": "We behouden ons het recht voor om dit beleid bij te werken. Wijzigingen worden op deze pagina weergegeven met de wijzigingsdatum en vermeld in het wijzigingsoverzicht van de Web Store."
+      },
+      {
+        "heading": "10. Contact",
+        "content": "Voor vragen kunt u contact opnemen met: uploader0050@gmail.com"
+      }
+    ]
+  },
+  "sv": {
+    "title": "Integritetspolicy – Uploader++ Tillägg",
+    "lastUpdated": "Senast uppdaterad: 25 juli 2025",
+    "sections": [
+      {
+        "heading": "1. Introduktion",
+        "content": "Uploader++ hjälper dig att ladda upp och hantera ljudfiler på Roblox direkt från Chrome. Denna policy förklarar vilka data och behörigheter tillägget kräver, hur de används och skyddas, och täcker funktioner som multi-uppladdning, ljudgenerering, lokal historik och förhandsgranskningar av tillgångar."
+      },
+      {
+        "heading": "2. Behörigheter och värdar",
+        "subsections": [
+          {
+            "subheading": "2.1. Behörigheter",
+            "items": [
+              "activeTab – Infogar UI-element (knappar, förhandsgranskningar) endast på den aktiva fliken create.roblox.com.",
+              "scripting – Infogar knappar, händelselyssnare och förhandsgranskningsspelare.",
+              "webNavigation – Upptäcker navigeringsändringar i Roblox Single Page Application för att säkerställa att funktioner laddas korrekt.",
+              "storage – Lagrar användarinställningar (t.ex. växlar i popup-fönstret) lokalt. IndexedDB används också för att lagra generationshistoriken lokalt på din dator."
+            ]
+          },
+          {
+            "subheading": "2.2. Värdar",
+            "items": [
+              "https://*.roblox.com/* – Krävs för kärnfunktioner, inklusive ljuduppladdningar, hämtning av CSRF-token och hämtning av modereringsstatus från develop.roblox.com.",
+              "https://*.rbxcdn.com/* – För kompatibilitet med statiska resurser och miniatyrer.",
+              "https://publish.roblox.com/* – Den specifika slutpunkten som används för att ladda upp ljudfiler."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. Säkerhet",
+        "items": [
+          "HTTPS för alla externa förfrågningar.",
+          "Användning av den officiella Roblox CSRF-token för autentiserade åtgärder.",
+          "Skadlig kodfri kod, utan obfuskering.",
+          "All användardata, inklusive uppladdningshistorik, lagras lokalt på din enhet och överförs inte till våra servrar."
+        ]
+      },
+      {
+        "heading": "4. Transparens och dataanvändning",
+        "items": [
+          "Ljudfiler bearbetas endast när de väljs manuellt av användaren för uppladdning eller generering.",
+          "Användarinställningar lagras lokalt och synkroniseras via Chrome Sync om det är aktiverat.",
+          "Uppladdningar skickas direkt till Roblox officiella API:er.",
+          "En lokal historik över genererade ljud lagras på din enhet med IndexedDB. Denna historik inkluderar ursprungliga filnamn, variationsnamn och motsvarande Roblox Asset ID för att tillhandahålla historikfunktionen.",
+          "Tillägget frågar Roblox API:er för att kontrollera modereringsstatus för ljud i din historik och för att hämta förhandsgranskningsdata (miniatyrer och ljud-URL:er)."
+        ]
+      },
+      {
+        "heading": "5. Datadelning",
+        "content": "Inga data delas med tredje part. Data utbyts endast med Roblox officiella servrar för att utföra tilläggets kärnfunktioner, såsom att ladda upp de ljudfiler du väljer eller kontrollera deras status."
+      },
+      {
+        "heading": "6. Innehåll och affiliates",
+        "items": [
+          "Inget stötande innehåll (våld, pornografi, hatpropaganda).",
+          "Inga affiliatelänkar; om några läggs till i framtiden kommer de att tydligt redovisas före installationen."
+        ]
+      },
+      {
+        "heading": "7. Granskning och distribution",
+        "content": "Varje version passerar Chrome Web Store-granskningsprocessen. Företags-IT-administratörer kan hantera tillägget (tillåta eller blockera) via grupprinciper."
+      },
+      {
+        "heading": "8. URL-blockering",
+        "content": "Tillägget blockerar inte webbadresser eller filtrerar webbinnehåll. Dess omfattning är begränsad till att förbättra ljudhanteringsverktygen på Roblox."
+      },
+      {
+        "heading": "9. Policyändringar",
+        "content": "Vi förbehåller oss rätten att uppdatera denna policy. Ändringar kommer att återspeglas på denna sida med ändringsdatum och noteras i webbutikens ändringslogg."
+      },
+      {
+        "heading": "10. Kontakt",
+        "content": "För frågor, vänligen kontakta: uploader0050@gmail.com"
+      }
+    ]
+  },
+  "no": {
+    "title": "Personvernerklæring – Uploader++-utvidelse",
+    "lastUpdated": "Sist oppdatert: 25. juli 2025",
+    "sections": [
+      {
+        "heading": "1. Introduksjon",
+        "content": "Uploader++ hjelper deg med å laste opp og administrere lydfiler på Roblox direkte fra Chrome. Denne policyen forklarer hvilke data og tillatelser utvidelsen krever, hvordan de brukes og beskyttes, og dekker funksjoner som fleropplasting, lydgenerering, lokal historikk og forhåndsvisning av eiendeler."
+      },
+      {
+        "heading": "2. Tillatelser og verter",
+        "subsections": [
+          {
+            "subheading": "2.1. Tillatelser",
+            "items": [
+              "activeTab – Injisering av brukergrensesnittelementer (knapper, forhåndsvisninger) bare på den aktive create.roblox.com-fanen.",
+              "scripting – Setter inn knapper, hendelseslyttere og forhåndsvisningsspillere.",
+              "webNavigation – Oppdager navigasjonsendringer i Roblox' Single Page Application for å sikre at funksjonene lastes riktig.",
+              "storage – Lagrer brukerpreferanser (f.eks. veksler i popup-vinduet) lokalt. IndexedDB brukes også til å lagre generasjonshistorikken lokalt på datamaskinen din."
+            ]
+          },
+          {
+            "subheading": "2.2. Verter",
+            "items": [
+              "https://*.roblox.com/* – Nødvendig for kjernefunksjonaliteter, inkludert lydopplastinger, henting av CSRF-token og henting av modereringsstatus fra develop.roblox.com.",
+              "https://*.rbxcdn.com/* – For kompatibilitet med statiske ressurser og miniatyrbilder.",
+              "https://publish.roblox.com/* – Det spesifikke endepunktet som brukes for opplasting av lydfiler."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. Sikkerhet",
+        "items": [
+          "HTTPS for alle eksterne forespørsler.",
+          "Bruk av det offisielle Roblox CSRF-tokenet for autentiserte handlinger.",
+          "Skadevarefri kode, uten obfuskering.",
+          "Alle brukerdata, inkludert opplastingshistorikk, lagres lokalt på enheten din og overføres ikke til våre servere."
+        ]
+      },
+      {
+        "heading": "4. Åpenhet og databruk",
+        "items": [
+          "Lydfiler behandles bare når de er manuelt valgt av brukeren for opplasting eller generering.",
+          "Brukerinnstillinger lagres lokalt og synkroniseres via Chrome Sync hvis aktivert.",
+          "Opplastinger sendes direkte til Roblox sine offisielle API-er.",
+          "En lokal historikk over genererte lyder lagres på enheten din ved hjelp av IndexedDB. Denne historikken inkluderer originale filnavn, variasjonsnavn og de tilsvarende Roblox Asset ID-ene for å tilby historikkfunksjonen.",
+          "Utvidelsen spør Roblox sine API-er for å sjekke modereringsstatusen for lyder i historikken din og for å hente forhåndsvisningsdata (miniatyrbilder og lyd-URL-er)."
+        ]
+      },
+      {
+        "heading": "5. Datadeling",
+        "content": "Ingen data deles med tredjeparter. Data utveksles kun med Roblox sine offisielle servere for å utføre utvidelsens kjernefunksjoner, for eksempel å laste opp lydfilene du velger eller sjekke statusen deres."
+      },
+      {
+        "heading": "6. Innhold og tilknyttede selskaper",
+        "items": [
+          "Ikke noe støtende innhold (vold, pornografi, hatefulle ytringer).",
+          "Ingen tilknyttede lenker; hvis noen blir lagt til i fremtiden, vil de bli tydelig opplyst om før installasjon."
+        ]
+      },
+      {
+        "heading": "7. Gjennomgang og distribusjon",
+        "content": "Hver versjon består Chrome Web Store-gjennomgangsprosessen. Bedrifts-IT-administratorer kan administrere utvidelsen (tillate eller blokkere) via gruppepolicyer."
+      },
+      {
+        "heading": "8. URL-blokkering",
+        "content": "Utvidelsen blokkerer ikke URL-er eller filtrerer nettinnhold. Omfanget er begrenset til å forbedre verktøyene for lydadministrasjon på Roblox."
+      },
+      {
+        "heading": "9. Policyendringer",
+        "content": "Vi forbeholder oss retten til å oppdatere denne policyen. Endringer vil bli reflektert på denne siden med endringsdatoen og notert i nettbutikkens endringslogg."
+      },
+      {
+        "heading": "10. Kontakt",
+        "content": "For henvendelser, vennligst kontakt: uploader0050@gmail.com"
+      }
+    ]
+  },
+  "pl": {
+    "title": "Polityka prywatności – rozszerzenie Uploader++",
+    "lastUpdated": "Ostatnia aktualizacja: 25 lipca 2025 r.",
+    "sections": [
+      {
+        "heading": "1. Wprowadzenie",
+        "content": "Uploader++ pomaga przesyłać i zarządzać plikami audio w Roblox bezpośrednio z przeglądarki Chrome. Ta polityka wyjaśnia, jakie dane i uprawnienia wymaga rozszerzenie, jak są one wykorzystywane i chronione, obejmując funkcje takie jak przesyłanie wielu plików, generowanie dźwięku, lokalna historia i podgląd zasobów."
+      },
+      {
+        "heading": "2. Uprawnienia i hosty",
+        "subsections": [
+          {
+            "subheading": "2.1. Uprawnienia",
+            "items": [
+              "activeTab – wstrzykuje elementy interfejsu użytkownika (przyciski, podglądy) tylko w aktywnej karcie create.roblox.com.",
+              "scripting – wstawia przyciski, nasłuchiwacze zdarzeń i odtwarzacze podglądu.",
+              "webNavigation – wykrywa zmiany nawigacji w aplikacji jednostronicowej Roblox, aby zapewnić prawidłowe ładowanie funkcji.",
+              "storage – przechowuje preferencje użytkownika (np. przełączniki w wyskakującym okienku) lokalnie. IndexedDB jest również używany do lokalnego przechowywania historii generowania na komputerze."
+            ]
+          },
+          {
+            "subheading": "2.2. Hosty",
+            "items": [
+              "https://*.roblox.com/* – wymagany do podstawowych funkcji, w tym przesyłania audio, pobierania tokena CSRF i pobierania statusu moderacji z develop.roblox.com.",
+              "https://*.rbxcdn.com/* – dla zgodności z zasobami statycznymi i miniaturami.",
+              "https://publish.roblox.com/* – określony punkt końcowy używany do przesyłania plików audio."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. Bezpieczeństwo",
+        "items": [
+          "HTTPS dla wszystkich żądań zewnętrznych.",
+          "Użycie oficjalnego tokena CSRF Roblox do uwierzytelnionych działań.",
+          "Kod wolny od złośliwego oprogramowania, bez zaciemniania.",
+          "Wszystkie dane użytkownika, w tym historia przesyłania, są przechowywane lokalnie na Twoim urządzeniu i nie są przesyłane na nasze serwery."
+        ]
+      },
+      {
+        "heading": "4. Przejrzystość i wykorzystanie danych",
+        "items": [
+          "Pliki audio są przetwarzane tylko wtedy, gdy zostaną ręcznie wybrane przez użytkownika do przesłania lub wygenerowania.",
+          "Ustawienia użytkownika są przechowywane lokalnie i synchronizowane za pomocą Chrome Sync, jeśli jest włączone.",
+          "Przesyłane pliki są wysyłane bezpośrednio do oficjalnych interfejsów API Roblox.",
+          "Lokalna historia wygenerowanych dźwięków jest przechowywana na Twoim urządzeniu za pomocą IndexedDB. Ta historia zawiera oryginalne nazwy plików, nazwy wariantów i odpowiadające im identyfikatory zasobów Roblox w celu zapewnienia funkcji historii.",
+          "Rozszerzenie wysyła zapytania do interfejsów API Roblox w celu sprawdzenia statusu moderacji dźwięków w Twojej historii oraz w celu pobrania danych podglądu (miniatury i adresy URL audio)."
+        ]
+      },
+      {
+        "heading": "5. Udostępnianie danych",
+        "content": "Żadne dane nie są udostępniane stronom trzecim. Dane są wymieniane tylko z oficjalnymi serwerami Roblox w celu wykonywania podstawowych funkcji rozszerzenia, takich jak przesyłanie wybranych plików audio lub sprawdzanie ich statusu."
+      },
+      {
+        "heading": "6. Treść i podmioty stowarzyszone",
+        "items": [
+          "Brak treści budzących zastrzeżenia (przemoc, pornografia, mowa nienawiści).",
+          "Brak linków partnerskich; jeśli jakiekolwiek zostaną dodane w przyszłości, zostaną one wyraźnie ujawnione przed instalacją."
+        ]
+      },
+      {
+        "heading": "7. Przegląd i dystrybucja",
+        "content": "Każda wersja przechodzi proces weryfikacji w sklepie Chrome Web Store. Administratorzy IT w firmach mogą zarządzać rozszerzeniem (zezwalać lub blokować) za pomocą zasad grupy."
+      },
+      {
+        "heading": "8. Blokowanie adresów URL",
+        "content": "Rozszerzenie nie blokuje adresów URL ani nie filtruje treści internetowych. Jego zakres jest ograniczony do ulepszania narzędzi do zarządzania dźwiękiem w Roblox."
+      },
+      {
+        "heading": "9. Zmiany w polityce",
+        "content": "Zastrzegamy sobie prawo do aktualizacji tej polityki. Zmiany zostaną odzwierciedlone na tej stronie z datą modyfikacji i odnotowane w dzienniku zmian w sklepie internetowym."
+      },
+      {
+        "heading": "10. Kontakt",
+        "content": "W razie pytań prosimy o kontakt: uploader0050@gmail.com"
+      }
+    ]
+  },
+  "tr": {
+    "title": "Gizlilik Politikası – Uploader++ Uzantısı",
+    "lastUpdated": "Son güncelleme: 25 Temmuz 2025",
+    "sections": [
+      {
+        "heading": "1. Giriş",
+        "content": "Uploader++, Chrome'dan doğrudan Roblox'a ses dosyaları yüklemenize ve yönetmenize yardımcı olur. Bu politika, uzantının hangi verilere ve izinlere ihtiyaç duyduğunu, bunların nasıl kullanıldığını ve korunduğunu açıklar ve çoklu yükleme, ses oluşturma, yerel geçmiş ve varlık önizlemeleri gibi özellikleri kapsar."
+      },
+      {
+        "heading": "2. İzinler ve Ana Bilgisayarlar",
+        "subsections": [
+          {
+            "subheading": "2.1. İzinler",
+            "items": [
+              "activeTab – Kullanıcı arayüzü öğelerini (düğmeler, önizlemeler) yalnızca etkin create.roblox.com sekmesine enjekte eder.",
+              "scripting – Düğmeleri, olay dinleyicilerini ve önizleme oynatıcılarını ekler.",
+              "webNavigation – Özelliklerin doğru şekilde yüklenmesini sağlamak için Roblox'un Tek Sayfa Uygulaması içindeki gezinme değişikliklerini algılar.",
+              "storage – Kullanıcı tercihlerini (ör. açılır penceredeki geçişler) yerel olarak saklar. IndexedDB, oluşturma geçmişini bilgisayarınızda yerel olarak depolamak için de kullanılır."
+            ]
+          },
+          {
+            "subheading": "2.2. Ana Bilgisayarlar",
+            "items": [
+              "https://*.roblox.com/* – Ses yüklemeleri, CSRF belirteci alma ve develop.roblox.com'dan denetleme durumunu getirme dahil olmak üzere temel işlevler için gereklidir.",
+              "https://*.rbxcdn.com/* – Statik kaynaklar ve küçük resimlerle uyumluluk için.",
+              "https://publish.roblox.com/* – Ses dosyalarını yüklemek için kullanılan belirli uç nokta."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3. Güvenlik",
+        "items": [
+          "Tüm harici istekler için HTTPS.",
+          "Kimliği doğrulanmış eylemler için resmi Roblox CSRF belirtecinin kullanılması.",
+          "Kötü amaçlı yazılım içermeyen, gizlenmemiş kod.",
+          "Yükleme geçmişi de dahil olmak üzere tüm kullanıcı verileri cihazınızda yerel olarak saklanır ve sunucularımıza iletilmez."
+        ]
+      },
+      {
+        "heading": "4. Şeffaflık ve Veri Kullanımı",
+        "items": [
+          "Ses dosyaları yalnızca kullanıcı tarafından yükleme veya oluşturma için manuel olarak seçildiğinde işlenir.",
+          "Kullanıcı ayarları yerel olarak depolanır ve etkinleştirilirse Chrome Sync aracılığıyla senkronize edilir.",
+          "Yüklemeler doğrudan Roblox'un resmi API'lerine gönderilir.",
+          "Oluşturulan seslerin yerel bir geçmişi IndexedDB kullanılarak cihazınızda saklanır. Bu geçmiş, geçmiş özelliğini sağlamak için orijinal dosya adlarını, varyasyon adlarını ve ilgili Roblox Varlık Kimliklerini içerir.",
+          "Uzantı, geçmişinizdeki seslerin denetleme durumunu kontrol etmek ve önizleme verilerini (küçük resimler ve ses URL'leri) getirmek için Roblox API'lerini sorgular."
+        ]
+      },
+      {
+        "heading": "5. Veri Paylaşımı",
+        "content": "Üçüncü taraflarla hiçbir veri paylaşılmaz. Veriler yalnızca, seçtiğiniz ses dosyalarını yüklemek veya durumlarını kontrol etmek gibi uzantının temel işlevlerini yerine getirmek için Roblox'un resmi sunucularıyla değiştirilir."
+      },
+      {
+        "heading": "6. İçerik ve Satış Ortakları",
+        "items": [
+          "Sakıncalı içerik yok (şiddet, pornografi, nefret söylemi).",
+          "Satış ortağı bağlantısı yok; gelecekte herhangi bir bağlantı eklenirse, kurulumdan önce açıkça ifşa edilecektir."
+        ]
+      },
+      {
+        "heading": "7. İnceleme ve Dağıtım",
+        "content": "Her sürüm Chrome Web Mağazası inceleme sürecinden geçer. Kurumsal BT yöneticileri, grup ilkeleri aracılığıyla uzantıyı yönetebilir (izin verebilir veya engelleyebilir)."
+      },
+      {
+        "heading": "8. URL Engelleme",
+        "content": "Uzantı URL'leri engellemez veya web içeriğini filtrelemez. Kapsamı Roblox'taki ses yönetimi araçlarını geliştirmekle sınırlıdır."
+      },
+      {
+        "heading": "9. Politika Değişiklikleri",
+        "content": "Bu politikayı güncelleme hakkımızı saklı tutarız. Değişiklikler bu sayfada değişiklik tarihiyle birlikte yansıtılacak ve Web Mağazası'nın değişiklik günlüğünde belirtilecektir."
+      },
+      {
+        "heading": "10. İletişim",
+        "content": "Sorularınız için lütfen iletişime geçin: uploader0050@gmail.com"
+      }
+    ]
+  }
+}
